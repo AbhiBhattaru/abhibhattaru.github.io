@@ -11,7 +11,15 @@
     <body>
 	 <p id="date">
 	 <script language="JavaScript" type="text/javascript" > document.write(TODAY);</script>
-	 </p>	
+	 </p>
+	 <script type="text/javascript">
+	 	var currentTime = new Date()
+		var month = currentTime.getMonth() + 1
+		var day = currentTime.getDate()
+		var year = currentTime.getFullYear()
+		document.write(month + "/" + day + "/" + year)
+
+	 </script>
 	 <center><img src = "Graphics/masthead.png"></center>
 	 <h1 color= "#f6f6f6">Welcome to Bhattaru.Net</h1>
 		<ul>
