@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta author="Abhijit Bhattaru"> <!--Insert Author-->
+        <meta name="description" content="Welcome to my website!"><!--Insert Author-->
+        <title>abhibhattaru.net</title><!--Insert Author-->
+	<link rel="icon" 
+      	type="image/x-icon" 
+      	href="../Graphics/favicon.ico" />
+	
+    </head>
+    <body>
+	 <script type="text/javascript">
+	 	var currentTime = new Date()
+		var month = currentTime.getMonth() + 1
+		var day = currentTime.getDate()
+		var year = currentTime.getFullYear()
+		document.write(month + "/" + day + "/" + year)
+	 </script>
+	 <img src = "../Graphics/masthead.png" align = "center">
+	    
+	    
+	    	    <p>Hey! Do you want to see a cool scratch project I made? Here you go!</p>
+	    <iframe allowtransparency="true" width="485" height="402" 
+	       	    src="//scratch.mit.edu/projects/embed/120799005/?autostart=false" frameborder="0" allowfullscreen>
+	    </iframe>
+	    
+	    <p>Hey! Do you want to see a guessing game I made? Here you go!</p>
+	    <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/147877926/?autostart=false"
+		    frameborder="0" allowfullscreen>
+	    </iframe>
+	    
+	    <p>Hey do you want to see some methods working in scratch?</p>
+	    <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/148701303/?autostart=false"
+		    frameborder="0" allowfullscreen>
+	    </iframe>
+	    
+	    <p>Hey do you want to play a trivia game?</p>
+	    <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/148977922/?autostart=false"
+		    frameborder="0" allowfullscreen>
+	    </iframe>
+	    
+	    
+	    <h1>Random Javascript Experiments</h1>   
+	    
+	    <script> type="text/javascript">
+	    if ( window.addEventListener ) {  
+ 		var state = 0, konami = [38,38,40,40,37,39,37,39,66,65];  
+ 		window.addEventListener("keydown", function(e) {  
+    		if ( e.keyCode == konami[state] ) state++;  
+    		else state = 0;  
+  		  if ( state == 10 )  
+    		  window.open("https://www.youtube.com/watch?v=AEOpX8tmiUI"); 
+            }, true);  
+	    }  </script>
+	    
+	    
+    </body>
+</html>
