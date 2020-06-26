@@ -7,15 +7,15 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: 'Research'
+      href: research.html
   right:
-  #  - icon: fa-envelope fa-lg
-   #   href: contact.html
-  #  - icon: fa-github fa-lg
-   #   href: 
-  #  - icon: fa-twitter fa-lg
-   #   href: https://twitter.com/zabormetrics
+    - icon: fa-graduation-cap fa-lg
+      href: https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=1&user=WJHf9fsAAAAJ
     - icon: fa-linkedin fa-lg
       href: www.linkedin.com/in/abhijit-bhattaru-3693a9177
+    - icon: fa-github fa-lg
+      href: https://github.com/abhimaster2001
 output:
   html_document:
     theme: cosmo
