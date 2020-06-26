@@ -1,0 +1,9 @@
+---
+title: "footer"
+author: "Abhi Bhattaru"
+date: "6/26/2020"
+output: html_document
+---
+
+
+Copyright &copy; 2020 Abhijit Bhattaru. All rights reserved.
