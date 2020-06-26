@@ -7,15 +7,15 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-  #right:
+  right:
   #  - icon: fa-envelope fa-lg
    #   href: contact.html
-    #- icon: fa-github fa-lg
-     # href: http://github.com/zabore
+  #  - icon: fa-github fa-lg
+   #   href: 
   #  - icon: fa-twitter fa-lg
    #   href: https://twitter.com/zabormetrics
-    #- icon: fa-linkedin fa-lg
-     # href: https://www.linkedin.com/in/emily-zabor-59b902b7/
+    - icon: fa-linkedin fa-lg
+      href: www.linkedin.com/in/abhijit-bhattaru-3693a9177
 output:
   html_document:
     theme: cosmo
