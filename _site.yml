@@ -9,6 +9,8 @@ navbar:
       href: about.html
     - text: 'Research'
       href: research.html
+    - text: 'Test Shiny App'
+      href: shiny.html
   right:
     - icon: fa-graduation-cap fa-lg
       href: https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=1&user=WJHf9fsAAAAJ
