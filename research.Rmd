@@ -1,8 +1,12 @@
 ---
-title: "About"
+title: 'Research Experience'
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{=html}
+<p>testing rmd override</p>
 ```

@@ -9,7 +9,7 @@ navbar:
       href: about.html
     - text: 'Research'
       href: research.html
-    - text: 'Test Shiny App'
+    - text: 'Applications'
       href: shiny.html
   right:
     - icon: fa-graduation-cap fa-lg
@@ -20,7 +20,7 @@ navbar:
       href: https://github.com/abhimaster2001
 output:
   html_document:
-    theme: cosmo
+    theme: sandstone
     include:
       after_body: footer.html
     css: 'styles.css'

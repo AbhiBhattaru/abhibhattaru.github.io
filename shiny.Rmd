@@ -1,11 +1,11 @@
 ---
-title: "Test Shiny App"
-author: "Abhi Bhattaru"
-date: "6/26/2020"
 output: html_document
 runtime: shiny
 ---
 
+<br>
+
+# Video Game Sales
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
