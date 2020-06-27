@@ -94,7 +94,7 @@ theme_set(theme_classic2())
 
 
 
-```{r shinythingie, echo=FALSE}
+```{r shinythingie, echo=TRUE}
 shinyApp( # Define UI for application that draws a histogram
 ui <- fluidPage(
 
