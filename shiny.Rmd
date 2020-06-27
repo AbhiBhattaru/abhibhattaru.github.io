@@ -3,10 +3,12 @@ title: "Test Shiny App"
 author: "Abhi Bhattaru"
 date: "6/26/2020"
 output: html_document
+runtime: shiny
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-knitr::include_app('https://abhibhattaru.shinyapps.io/VideoGameAnalysis/', height = '600px')
 ```
-
+```{r thingie, message=FALSE, fig.width = 10, fig.height=8}
+knitr::include_app('https://abhibhattaru.shinyapps.io/VideoGameAnalysis/', height = '1000px')
+```
