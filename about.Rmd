@@ -6,3 +6,19 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+information here
+```{r websitedisplay, tidy=TRUE, echo=FALSE}
+library(shiny)
+
+
+  sidebarLayout(
+    sidebarPanel = sidebarPanel(
+      p("Testing shiny implementation")
+    ),
+    mainPanel = mainPanel(
+      p('testing shiny implementation')
+    )
+  )
+
+
+```
