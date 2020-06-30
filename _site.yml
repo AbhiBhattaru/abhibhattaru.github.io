@@ -1,4 +1,7 @@
 name: "Abhi Bhattaru"
+author: "Abhi Bhattaru"
+url: 'https\://abhibhattaru.github.io'
+description: "Welcome to my website!"
 output_dir: "."
 navbar:
   title: "Abhi Bhattaru"
@@ -22,6 +25,5 @@ output:
   html_document:
     theme: sandstone
     include:
-      in_header: header.html
       after_body: footer.html
     css: 'styles.css'
