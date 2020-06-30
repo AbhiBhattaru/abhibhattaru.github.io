@@ -1,6 +1,7 @@
 ---
 output: html_document
 runtime: shiny
+pagetitle: Applications
 ---
 
 <br>
