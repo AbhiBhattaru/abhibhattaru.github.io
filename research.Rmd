@@ -1,6 +1,6 @@
 ---
-title: 'Research Experience'
 output: html_document
+pagetitle: Research
 ---
 
 ```{r setup, include=FALSE}

@@ -1,5 +1,6 @@
 ---
 output: html_document
+pagetitle: About
 ---
 
 ```{r setup, include=FALSE}
