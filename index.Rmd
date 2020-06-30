@@ -5,36 +5,20 @@ pagetitle: Home
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+#events:
+#aimed 2018
+#aimed 2019
+#pwc
+#mit grand hack
+#snmmi
+#mit urtc
+#scct innovation
+#aha vascular discovery
+#svm
+#scmr 2020
 ```
+<br>
+<center>Coming Soon<center>
 
-```{=html}
-<style>
-.header-img {
-  width: 1200px;
-  height: 350px;
-  background-size: cover;
-  background-image: url('images/masthead.png');
-  margin: 0 auto;
-  margin-left: -150px;
-  text-align: center;
-  
-}
-</style>
-```
+<br>
 
-```{=html}
-<head>
-    <div class="header-img"></div>
-</head>
-```
-events:
-aimed 2018
-aimed 2019
-pwc
-mit grand hack
-snmmi
-mit urtc
-scct innovation
-aha vascular discovery
-svm
-scmr 2020
