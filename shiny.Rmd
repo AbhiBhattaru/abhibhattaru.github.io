@@ -5,11 +5,18 @@ pagetitle: Applications
 ---
 
 <br>
-
-# Video Game Sales
+```{=html}
+<style>
+  h2{
+font-weight: 500;
+  }
+</style>
+<h2>Videogame sales</h2>
+  
+```  
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-```{r thingie, message=FALSE, fig.width = 10, fig.height=8}
+```{r thingie, message=FALSE, fig.width = 9, fig.height=8}
 knitr::include_app('https://abhibhattaru.shinyapps.io/VideoGameAnalysis/', height = '1000px')
 ```

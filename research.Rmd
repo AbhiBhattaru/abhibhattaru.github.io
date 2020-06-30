@@ -6,7 +6,7 @@ pagetitle: Research
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+<br>
+<center>Coming Soon<center>
 
-```{=html}
-<p>testing rmd override</p>
-```
+<br>
