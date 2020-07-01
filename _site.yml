@@ -11,7 +11,11 @@ navbar:
     - text: "About"
       href: about.html
     - text: 'Research'
-      href: research.html
+      menu:
+        - text: "Gallery"
+          href: research.html
+        - text: "Listed Works"
+          href: listed_works.html
     - text: 'Applications'
       href: shiny.html
   right:

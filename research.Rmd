@@ -1,6 +1,6 @@
 ---
 output: html_document
-pagetitle: Research
+pagetitle: Gallery
 ---
 
 ```{r setup, include=FALSE}
