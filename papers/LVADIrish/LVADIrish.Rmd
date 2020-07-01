@@ -1,0 +1,34 @@
+---
+title: Predictors of in-hospital mortality in patients with left ventricular assist
+  device
+author:
+- "Karthik Gonuguntla, Shivaraj Patil, Richard Gregory Cowden, Manish Kumar, "
+- "Chaitanya Rojulpote, **Abhijit Bhattaru**, John Glenn Tiu, Peter Robinson"
+output: pdf_document
+date: "Irish Journal of Medical Science | May 9th, 2020"
+urlcolor: blue
+---
+***
+
+\noindent
+**Background:**A left ventricular assist device (LVAD) is used to support patients with end-stage heart failure.
+
+\noindent
+**Aims:**examine the role of comorbidities and complications in predicting in-hospital mortality since the introduction of continuous flow (CF)-LVAD.
+
+\noindent
+**Methods:**The Nationwide Inpatient Sample was queried from 2010 to 2014 using International Classification of Disease-9 code for LVAD among patients 18 years   or older. The sample consisted of 2,359 patients (mean age = 55 ± 13.7 years, 76.8% men, 59.3% Caucasian).
+
+\noindent
+**Results:**Comparative analysis revealed mortality did not differ from 2010 to 2014 (p = 0.653). Increases in comorbidities of atrial fibrillation, acute kidney injury, mechanical ventilation, body mass index $\geq$ 25, cerebrovascular disease, and mild liver disease were evidenced over the 5-year period (p values $\geq$ 0.049). Multivariate analysis showed that significant predictors of mortality were comorbid hemodialysis (AOR=7.62, 95% CI [4.78, 12.27]), cerebrovascular disease (AOR=5.38, 95% CI [3.49, 8.26]), mechanical ventilation (AOR=3.83, 95% CI [2.84, 5.18]), mild liver disease (AOR=1.96, 95% CI [1.38, 2.76]), and acute kidney injury (AOR=1.62, 95% CI [1.16, 2.28]). Predictive complications included disseminated intravascular coagulation (AOR=6.41, 95% CI [2.79, 6.84]), sepsis (AOR=4.37, 95% CI [2.79, 6.84]), septic shock (AOR=3.9, 95% CI [2.11, 7.59]), and gastrointestinal bleed (AOR=1.81, 95% CI [1.11, 2.93]).
+
+\noindent
+**Conclusions:**CF-LVADs have not reduced mortality, possibly due to utilization in patients with comorbid conditions. Future trials are necessary for improved patient selection and reduced post-procedural complications.
+
+***
+
+\begin{center}
+
+DOI:\href {https://doi.org/10.1007/s11845-020-02246-y}{10.1007/s11845-020-02246-y } | Pubmed: \href {https://pubmed.ncbi.nlm.nih.gov/32388673/}{32388673}
+
+\end{center}
