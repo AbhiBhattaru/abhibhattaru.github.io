@@ -1,0 +1,25 @@
+---
+title: An Unusual Case of Tricuspid Valve Infective Endocarditis Caused by Erysipelothrix Rhusiopathiae
+author:
+- "Pranav Karambelkar, Chaitanya Rojulpote, Austin J. Borja,"
+- "Cathrine Youngs, **Abhijit Bhattaru**"
+output: pdf_document
+date: "Cureus| May 3rd, 2020"
+urlcolor: blue
+---
+***
+\noindent
+Erysipelothrix rhusiopathiae is an omnipresent commensal in the environment, studied for over a century. It is a zoonotic pathogen known to cause infections in animals and humans. Cases of Erysipelothrix rhusiopathiae in humans have been classified into three distinct entities: localized skin infections, diffuse skin infections, and systemic organ involvement. This particular pathogen is an uncommon cause of endocarditis, with an affinity for the aortic valve. We present a case of Erysipelothrix rhusiopathiae in a patient with involvement of the tricuspid valve.
+
+***
+
+\begin{center}
+
+```{r, Rlogo, echo=FALSE, out.width='5in', fig.align='center', fig.pos='htbp'}
+knitr::include_graphics('case.png')
+```
+
+DOI:\href {https://doi.org/10.7759/cureus.7942}{10.7759/cureus.7942} | Pubmed: \href {https://pubmed.ncbi.nlm.nih.gov/32499982/}{32499982}
+
+
+\end{center}

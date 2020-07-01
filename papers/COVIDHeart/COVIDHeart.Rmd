@@ -1,0 +1,20 @@
+---
+title: COVID-19 and the Heart
+author:
+- "Chaitanya Rojulpote, Karthik Gonuguntla, Shivaraj Patil, "
+- "**Abhijit Bhattaru**, Paco E. Bravo"
+output: pdf_document
+date: "Colombia Medica | May 11th, 2020"
+urlcolor: blue
+---
+***
+\noindent
+Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) which causes coronavirus disease 2019 (COVID-19) has resulted in a global health crisis. Prior to the arrival of this viral pandemic, the world was already plagued with a significant burden of cardiovascular disease. With the introduction of the novel virus, the world now faces a double jeapordy. Early reports have suggested an increased risk of death in individuals with underlying cardio-metabolic disorders. The exact effects of COVID-19 on the cardiovascular system are not well determined, however lessons from prior viral epidemics suggest that such infections can trigger acute coronary syndromes, arrhythmias and heart failure via direct and indirect mechanisms. In this article, we aimed to discuss the effects and potential underlying mechanisms of COVID -19 as well as potential implications of treatments targeted against this virus on the cardiovascular system.
+
+***
+
+\begin{center}
+
+DOI:\href {}{10.25100/cm.v51i2.4320} |  \href {https://colombiamedica.univalle.edu.co/index.php/comedica/article/view/4320/4778}{Full Text}
+
+\end{center}

@@ -1,0 +1,21 @@
+---
+title: Trends, Outcomes, and Predictors of Sepsis and Severe Sepsis in Patients with Left Ventricular Assist Devices
+author:
+- "Karthik Gonuguntla, Shivaraj Patil, Naga Vaishnavi Gadela, "
+- "Richard Cowden, Chaitanya Rojulpote, Satya Durugu, Pranav Karambelkar, "
+- "**Abhijit Bhattaru**, Austin J. Borja, Vincent Zhang"
+output: pdf_document
+date: "Cureus | April 3rd, 2020"
+urlcolor: blue
+---
+***
+\noindent
+Left ventricular assist device (LVAD) is used in end-stage heart failure that is refractory to medical treatment. However, there is a paucity of data looking at the rates of sepsis and severe sepsis (SSS). Therefore, this study was conceived with the purpose of analyzing the SSS burden and outcomes associated with LVAD implantation. The national inpatient sample database was queried from 2010 to 2014 using ICD-9 procedure code for LVAD use among patients 18 years or older and 2359 patients were identified. During the five-year study period, the average incidence of SSS was 11.8% and it was noted that cases with SSS were associated with an increased likelihood of mortality, greater length of hospital stay (LOS), and higher hospital-related charges (p < .001) compared to controls. Controlling for age, sex, and LOS, hierarchical multivariate logistic regression revealed that significant predictors of SSS were acute kidney injury [Adjusted odd’s ratio (AOR) = 2.75, 95% CI = 1.87, 4.14)], mechanical ventilation (AOR = 2.34, 95% CI = 1.70, 3.23), venous thromboembolism (AOR = 1.76, 95% CI = 1.12, 2.75), gastrointestinal bleed (AOR = 1.77, 95% CI = 1.12, 2.76), chronic obstructive pulmonary disease (COPD) (AOR = 0.55, 95% CI = 0.40, 0.77), acute myocardial infarction (AOR = 0.54, 95% CI = 0.36, 0.80) and mild liver disease (AOR = 2.18, 95% CI = 1.55, 3.06). The rate of incidence of sepsis has remained constant and is often associated with a worse clinical outcome. This provides a basis to identify high-risk groups and helps argue for earlier detection of such patients and better patient selection so as to reduce infectious complications.
+
+***
+
+\begin{center}
+
+DOI:\href {https://doi.org/10.7759/cureus.7523}{10.7759/cureus.7523} | Pubmed: \href {https://pubmed.ncbi.nlm.nih.gov/32377471/}{32377471}
+
+\end{center}

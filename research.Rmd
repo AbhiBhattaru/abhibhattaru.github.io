@@ -30,26 +30,26 @@ title{
 display: none;
 }
 
-.location-listing {
+.paper-listing {
   position: relative;
   overflow: hidden;
 }
 
-.location-listing:hover .location-title {
+.paper-listing:hover .paper-title {
   opacity: 1;
 }
 
-.location-listing:hover .location-image img {
+.paper-listing:hover .paper-image img {
   filter: blur(2px);
 }
 
-.location-image img {
+.paper-image img {
   filter: blur(0px);
   transition: filter 0.3s ease-in;
   transform: scale(1.1);
 }
 
-.location-title {
+.paper-title {
   position: absolute;
   top: 0;
   left: 0;
@@ -81,11 +81,11 @@ img {
 }
 
 @media (hover: none) { 
-  .location-title {
+  .paper-title {
     opacity: 1;
     background: none;
   }
-  .location-image img {
+  .paper-image img {
     filter: blur(0px);
   }
 }
@@ -100,28 +100,102 @@ img {
 
 <h2>Research Papers</h2><hr>
 <h4>Original Science</h4>
-```{r grid, tidy=TRUE, echo=FALSE}
+```{r OriginalScience, tidy=TRUE, echo=FALSE}
 library(shiny)
 
-
-
+#row1
 fluidRow(
-  column(4,
+  column(3,
          HTML('
-              <article class="location-listing">
-                <a class="location-title" href="papers/LVADIrish/LVADIrish.pdf">In-Hospital Mortality LVAD</a>
-                <div class="location-image">
+              <article class="paper-listing">
+                <a class="paper-title" href="papers/LVADIrish/LVADIrish.pdf">In Hospital Mortality LVAD</a>
+                <div class="paper-image">
                   <a href="/papers/LVADIrish/LVADIrish.pdf" download>
                     <img src="papers/LVADIrish/LVADIrish.jpg" alt="LVADIrish">
                   </a>
                 </div>
               </article>
-              '))
+              ')),
+  column(3,
+         HTML('
+              <article class="paper-listing">
+                <a class="paper-title" href="papers/GenderSarcoid/GenderSarcoid.pdf">Gender in Sarcoidosis</a>
+                <div class="paper-image">
+                  <a href="papers/GenderSarcoid/GenderSarcoid.pdf" download>
+                    <img src="papers/GenderSarcoid/GenderSarcoid.jpg" alt="GenderSarcoid">
+                  </a>
+                </div>
+              </article>
+              ')),
+  column(3,
+         HTML('
+              <article class="paper-listing">
+                <a class="paper-title" href="papers/LVADSepsis/LVADSepsis.pdf">LVAD Sepsis</a>
+                <div class="paper-image">
+                  <a href="papers/LVADSepsis/LVADSepsis.pdf" download>
+                    <img src="papers/LVADSepsis/LVADSepsis.jpg" alt="LVADSepsis">
+                  </a>
+                </div>
+              </article>
+              ')),
+  column(3)
 )
 
+```
 
+<br>
+<h4>Reviews</h4>
+```{r ReviewArticles, tidy=TRUE, echo=FALSE}
+#row1
+
+fluidRow(
+  column(3,
+         HTML('
+              <article class="paper-listing">
+                <a class="paper-title" href="papers/COVIDHeart/COVIDHeart.pdf">COVID-19 in Heart</a>
+                <div class="paper-image">
+                  <a href="papers/COVIDHeart/COVIDHeart.pdf" download>
+                    <img src="papers/COVIDHeart/COVIDHeart.jpg" alt="COVIDHeart">
+                  </a>
+                </div>
+              </article>
+              ')
+         )
+)
+```
+
+<br>
+<h4>Case Reports</h4>
+```{r CaseReports, tidy=TRUE, echo=FALSE}
+#row1
+fluidRow(
+  column(3,
+         HTML('
+              <article class="paper-listing">
+                <a class="paper-title" href="papers/Endocarditis/Endocarditis.pdf">Endocarditis Erysipelothrix Rhusiopathiae</a>
+                <div class="paper-image">
+                  <a href="papers/Endocarditis/Endocarditis.pdf" download>
+                    <img src="papers/Endocarditis/Endocarditis.jpg" alt="Endocarditis">
+                  </a>
+                </div>
+              </article>
+              ')
+         ),
+  column(3,
+         HTML('
+              <article class="paper-listing">
+                <a class="paper-title" href="papers/Conns/Conns.pdf">Conned by Conns</a>
+                <div class="paper-image">
+                  <a href="papers/Conns/Conns.pdf" download>
+                    <img src="papers/Conns/Conns.jpg" alt="Conns">
+                  </a>
+                </div>
+              </article>
+              ')
+         )
+)
 ```
 
 
 
-
+<br>

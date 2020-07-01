@@ -1,0 +1,29 @@
+---
+title: Gender Differences in Rates of Arrhythmias, Cardiac Implantable Electronic Devices, and Diagnostic Modalities Among Sarcoidosis Patients
+author:
+- "Satya Durugu, Karthik Gonuguntla, Shivaraj Patil, "
+- "Chaitanya Rojulpote, Vishruth Vyata, Pranav Karambelkar, "
+- "Pranathi Narayanareddy, Kiranmayi Vuthaluru, **Abhijit Bhattaru**"
+output: pdf_document
+date: "Cureus | April 14th, 2020"
+urlcolor: blue
+---
+***
+\noindent
+**Introduction:**Sarcoidosis is a granulomatous disease with multiorgan involvement. Cardiac involvement may be asymptomatic or present clinically as heart failure, arrhythmias, or even sudden cardiac death. In this study, we compared gender differences in the prevalence of arrhythmias and associated outcomes in patients with sarcoidosis without established coronary artery disease.
+
+\noindent
+**Methods:**The United States Nationwide Inpatient Sample was queried from 2010 to 2014 to identify patients with sarcoidosis using the International Classification of Diseases, Ninth Revision (ICD-9) diagnosis code in patients >18 years. We excluded patients with a prior history of myocardial infarction, percutaneous coronary intervention, and coronary artery bypass graft. The chi-square test was used for statistical analysis.
+
+\noindent
+**Results:**The sample consisted of 308,064 patients (mean age = 55.65 ± 11.28 years); they were mostly women (65.2%) and black (46.7%). In-hospital mortality in this cohort was 2.5%. The most common arrhythmia was atrial fibrillation (9.7%). The prevalence of ventricular fibrillation was 0.2%, ventricular tachycardia 2%, complete heart block 0.5%, and second-degree Mobitz type II (0.1%). Sudden cardiac death occurred in 0.7%. Rates of various cardiac devices implanted were: implantable cardiac defibrillator (ICD) (0.5%), cardiac resynchronization therapy-defibrillator (CRT-D) (0.2%), pacemaker (0.4%). Rates of endomyocardial biopsy (EMB), radionuclide imaging, and cardiac magnetic resonance imaging (MRI) were 0.2%, 0.3%, and 0.1%, respectively. Based on gender (male vs. female), the rates of arrhythmias, cardiac device implantation, and utilization of diagnostic modalities were: atrial fibrillation (41% vs 59%; p<0.001), ventricular fibrillation (50% vs 50%; p=0.983), ventricular tachycardia (55% vs 45%; p<0.001), complete heart block (48% vs 52%; p=0.3), second-degree Mobitz type II (37% vs 63%; p=0.706), sudden cardiac death (38% vs 62%; p<0.171), ICD (56% vs 44%; p<0.001), CRT-D (58% vs 42%; p=0.025), permanent pacemaker (40% vs 60%; p=0.066), EMB (55% vs 45%; p<0.001), radionuclide imaging (32% vs 68%; p=0.403), and cardiac MRI (41% vs 59%; p=0.396). In-hospital mortality was higher in females (64% vs 36%; p<0.001).
+
+\noindent
+**Conclusions:**In our study, in-hospital death was more common in females. Females had higher rates of atrial fibrillation as compared to males, who were found to have a higher burden of ventricular tachycardia. Males had higher rates of ICD and CRT-D placement. Males also had EMB performed more commonly than females.
+***
+
+\begin{center}
+
+DOI:\href {https://doi.org/10.7759/cureus.7667}{10.7759/cureus.7667} | Pubmed: \href {https://pubmed.ncbi.nlm.nih.gov/32419995/}{32419995}
+
+\end{center}
