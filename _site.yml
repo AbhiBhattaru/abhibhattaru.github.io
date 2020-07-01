@@ -25,6 +25,8 @@ navbar:
       href: https://www.linkedin.com/in/abhijit-bhattaru-3693a9177
     - icon: fa-github fa-lg
       href: https://github.com/abhimaster2001
+    - icon: fa-envelope fa-lg
+      href: mailto:abhi.bhattaru@gmail.com
 output:
   html_document:
     theme: sandstone
