@@ -12,7 +12,7 @@ navbar:
       href: about.html
     - text: 'Research'
       menu:
-        - text: "Gallery"
+        - text: "Paper Gallery"
           href: research.html
         - text: "Listed Works"
           href: listed_works.html
