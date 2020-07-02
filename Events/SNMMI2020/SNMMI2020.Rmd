@@ -1,0 +1,164 @@
+---
+pagetitle: "Society of Nuclear Medicine and Molecular Imaging National Meeting 2020"
+author: "Abhi Bhattaru"
+date: "July 11-14, 2020"
+img_name: "SNMMI-logo.png"
+description: "SNMMI is a national meeting to showcase new advances in Nuclear Medicine and Molecular Imaging. Each year, the SNMMI Scientific Program Committee invites physicians, scientists, technologists, lab professionals, and educators/course directors working in the field of nuclear medicine and molecular imaging to submit original abstracts for the opportunity to present and publish innovative scientific investigations to an audience of medical imaging professionals from around the world! View my abstract publications and posters from this event."
+output: 
+  html_document:
+    theme: sandstone
+    include:
+      in_header: header.html
+      after_body: footer.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{=html}
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../../index.html">Abhi Bhattaru</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="../../index.html">Home</a>
+</li>
+<li>
+  <a href="../../about.html">About</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Research
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="../../research.html">Paper Gallery</a>
+    </li>
+    <li>
+      <a href="../../listed_works.html">Listed Works</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="../../shiny.html">Applications</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://www.linkedin.com/in/abhijit-bhattaru-3693a9177">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://scholar.google.com/citations?view_op=list_works&amp;hl=en&amp;authuser=1&amp;user=WJHf9fsAAAAJ">
+    <span class="fa fa-graduation-cap fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.researchgate.net/profile/Abhi_Bhattaru">
+    <span class="fa fa fa fa-university fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/abhimaster2001">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="mailto:abhi.bhattaru@gmail.com">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<style>
+p{
+  font-size: 15px;
+  margin-bottom: .05em;
+}
+h2{
+font-weight: 500;
+}
+h3{
+font-weight: 500;
+}
+hr{
+border: 1px solid gray;
+}
+title{
+display: none;
+}
+</style>
+
+```
+
+
+<br> <br> <br>
+
+```{r webdisplay, echo=FALSE}
+library(shiny)
+yaml_info<- rmarkdown::yaml_front_matter('SNMMI2020.Rmd')
+
+HTML('<h2>', yaml_info$pagetitle, '</h2>' , '<hr>')
+
+fluidRow(
+    column(4,
+      img(src=yaml_info$img_name),
+      br(),
+      p(yaml_info$date),
+      br()
+          ),
+    column(8,
+      HTML("</p>", yaml_info$description, "</p>"),
+      br(),
+          )
+)
+br()
+HTML('<h4>', 'Posters', '</h4>' , '<hr>')
+HTML("<p>Coming soon</p>")
+br()
+HTML('<h4>', 'Published Abstracts', '</h4>' , '<hr>')
+      HTML('
+      <ol>
+        <li><b>A Bhattaru</b>, A Borja, V Zhang, KV Rojulpote, T Werner, A Alavi, ME Revheim. FDG-PET/CT as the superior imaging modality for inflammatory bowel disease. <a href="http://jnm.snmjournals.org/content/61/supplement_1/1159.abstract?sid=cc52ec7c-d567-496f-a7e3-16769aba25d3">Journal of Nuclear Medicine. May 1, 2020. </a>
+    </li>
+        <li><b>A Bhattaru</b>, V Zhang, E Hancin, A Borja, KV Rojulpote, T Werner, ME Revheim, A Alavi. Potential applications of FDG-PET/MRI in detecting vascular dementia. <a href="http://jnm.snmjournals.org/content/61/supplement_1/1149.abstract?sid=cc52ec7c-d567-496f-a7e3-16769aba25d3">Journal of Nuclear Medicine. May 1, 2020. </a>
+    </li>
+        <li>C Rojulpote, <b>A Bhattaru</b>, S Patil, K Gonuguntla, ME Revheim, B Koa, E Hancin, T Werner, A Alavi. Role of PET Imaging in Detection and Management of Arrhythmias. <a href="http://jnm.snmjournals.org/content/61/supplement_1/1365.abstract?sid=cc52ec7c-d567-496f-a7e3-16769aba25d3">Journal of Nuclear Medicine. May 1, 2020. </a>
+    </li>
+        <li>V Zhang, <b>A Bhattaru</b>, C Rojulpote, A Borja, A Madiraju, T Werner, A Alavi, ME Revheim. Role of PET/CT Imaging in the Assessment of Pulmonary Artery Atherosclerosis. <a href="http://jnm.snmjournals.org/content/61/supplement_1/1376.abstract?sid=cc52ec7c-d567-496f-a7e3-16769aba25d3">Journal of Nuclear Medicine. May 1, 2020. </a>
+    </li>
+        <li>E Hancin, A Borja, <b>A Bhattaru</b>, SM Seraj, KV Rojulpote, T Werner, A Alavi, ME Revheim. Applications of FDG-PET/CT and NaF-PET/CT in the Surgical Management of Musculoskeletal Infection. <a href="http://jnm.snmjournals.org/content/61/supplement_1/1156.abstract?sid=cc52ec7c-d567-496f-a7e3-16769aba25d3">Journal of Nuclear Medicine. May 1, 2020. </a>
+    </li>
+        <li>V Zhang, C Rojulpote, AJ Borja, A Madiraju, <b>A Bhattaru</b>, S Patil, K Gonuguntla, TJ Werner, PF Hoilund-Carlsen, ME Revheim, A Alavi. NaF Uptake in the Pulmonary Artery Stratified by Systemic Blood Pressure: A Novel Methodology. <a href="http://jnm.snmjournals.org/content/61/supplement_1/1621.abstract?sid=cc52ec7c-d567-496f-a7e3-16769aba25d3">Journal of Nuclear Medicine. May 1, 2020. </a>
+    </li>
+        <li>S Patil, K Gonuguntla, C Rojulpote, V Zhang, B Koa, <b>A Bhattaru</b>, ME Revheim, T Werner, A Alavi. Role of PET Imaging in Aortic Stenosis. <a href="http://jnm.snmjournals.org/content/61/supplement_1/1375.abstract?sid=cc52ec7c-d567-496f-a7e3-16769aba25d3">Journal of Nuclear Medicine. May 1, 2020. </a>
+    </li>
+        <li>V Zhang, S Padmanabhan, B Koa, A Borja, WY Raynor, A Madiraju, <b>A Bhattaru</b>, KV Rojulpote, C Rajapakse, T Werner, ME Revheim, A Alavi. Total-Body NaF-PET/CT and its Implications for Osteoporosis. <a href="http://jnm.snmjournals.org/content/61/supplement_1/1143.abstract?sid=cc52ec7c-d567-496f-a7e3-16769aba25d3">Journal of Nuclear Medicine. May 1, 2020. </a>
+    </li>
+        <li>C Rojulpote, S Patil, K Gonuguntla, ME Revheim, R Ghorpade, P Narayanareddy, <b>A Bhattaru</b>, TJ Werner, O Gerke, PF Hoilund-Carlsen, A Alavi. Role of NaF-PET/CT in Detecting and Quantifying Global Cardiac Subclinical Atherosclerosis in Healthy Individuals with an Optimal Lipid Profile and its Association with Blood Pressure. <a href="http://jnm.snmjournals.org/content/61/supplement_1/1634.abstract?sid=cc52ec7c-d567-496f-a7e3-16769aba25d3">Journal of Nuclear Medicine. May 1, 2020. </a>
+    </li>
+      </ol>
+')
+
+br()
+```

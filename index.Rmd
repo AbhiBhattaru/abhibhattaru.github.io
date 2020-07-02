@@ -18,6 +18,8 @@ knitr::opts_chunk$set(echo = TRUE)
 #scmr 2020
 ```
 
+
+<!--Banner content-->
 ```{ =html}
 <style>
 .main-container{
@@ -58,7 +60,7 @@ i {color: #FFFFFF;}
 
 </style>
 
-<div class="banner" >
+<div class="banner">
   <div class="banner-content">
     <h1>Abhi Bhattaru</h1>
     <i>"You miss 100% of the shots you don't take." -Wayne Gretzky -Micheal Scott</i>
@@ -71,8 +73,89 @@ i {color: #FFFFFF;}
 
 ```
 
+
+<!--Main Content-->
+```{=html}
+<style>
+p{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  margin-bottom: .05em;
+}
+h2{
+  font-weight: 500;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3{
+  font-weight: 500;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+hr{
+  border: .5px solid gray;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+```
+
+<h2>Events</h2>
+<hr>
+
+``` {r testingsomething, echo=FALSE}
+library(shiny)
+list_of_events<- list("SNMMI2020")
+
+string_files<-''
+rendered_elements<- for (i in list_of_events){
+  yaml<- rmarkdown::yaml_front_matter(paste("Events/",i,'/',i,'.Rmd',  sep=''))
+  string_files<-paste(string_files, 
+                      fluidRow(
+                        column(3,
+                               img(src=paste("Events/",i,'/', yaml$img_name,  sep='')),
+                               br(),
+                               p(yaml$date),
+                               br()
+                               ),
+                        column(9,
+                               a(HTML('<h4>',paste(yaml$pagetitle),'</h4>'), href=paste("Events/",i,'/',i,'.html',  sep='')),
+                               p(yaml$description)
+                               )
+                        ),
+                      hr()
+                      )
+}
+```
+```{=html}
+`r string_files`
+```
+
+
+
+<!---
+```{r testingfunctions, echo=FALSE, include=FALSE}
+library(shiny)
+textthing<- paste(rmarkdown::yaml_front_matter("papers/Endocarditis/Endocarditis.Rmd")$author[1], rmarkdown::yaml_front_matter("papers/Endocarditis/Endocarditis.Rmd")$author[2])
+
+out<- knitr::knit(text = textthing)
+
+```
+--->
+
+
+
 <br>
 <center>Coming Soon<center>
-
 <br>
 
