@@ -6,16 +6,18 @@ pagetitle: Home
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 #events:
+#snmmi
+#svm
+#scct innovation
+#aha vascular discovery
+#scmr 2020
 #aimed 2018
 #aimed 2019
 #pwc
 #mit grand hack
-#snmmi
 #mit urtc
-#scct innovation
-#aha vascular discovery
-#svm
-#scmr 2020
+
+
 ```
 
 
@@ -115,7 +117,7 @@ hr{
 
 ``` {r testingsomething, echo=FALSE}
 library(shiny)
-list_of_events<- list("SNMMI2020")
+list_of_events<- list("SNMMI2020", "SCCTInnovation2020")
 
 string_files<-''
 rendered_elements<- for (i in list_of_events){
