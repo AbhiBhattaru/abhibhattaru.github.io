@@ -1,0 +1,215 @@
+---
+pagetitle: "Society for Cardiovascular Magnetic Resonance Annual Scientific Session 2020"
+author: "Abhi Bhattaru"
+date: "February 12-15, 2020"
+img_name: "SCMR2020.png"
+description: "The field of Cardiac MRI is rapidly evolving and clinicians/technologists do not know how to apply or use some of the newer techniques available that can improve patient care, research, and education. To close the gap, learners 'need' to know how to practically implement more advanced imaging sequences and better understand how to use them in practice. This activity will educate learners through lectures and courses at the Society for Cardiovascular Magnetic Resonance (SCMR) 23rd Annual Scientific Sessions on machine learning, new perfusion technique, and contrast methods for examining future cardiovascular risk, as well as other new technologies in the field. Participants will also have the opportunity to interact with experts in the field to learn about new technology. View poster presented."
+output: 
+  html_document:
+    theme: sandstone
+    include:
+      in_header: header.html
+      after_body: footer.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{=html}
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../../index.html">Abhi Bhattaru</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="../../index.html">Home</a>
+</li>
+<li>
+  <a href="../../about.html">About</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Research
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="../../research.html">Paper Gallery</a>
+    </li>
+    <li>
+      <a href="../../listed_works.html">Listed Works</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="../../shiny.html">Applications</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://www.linkedin.com/in/abhijit-bhattaru-3693a9177">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://scholar.google.com/citations?view_op=list_works&amp;hl=en&amp;authuser=1&amp;user=WJHf9fsAAAAJ">
+    <span class="fa fa-graduation-cap fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.researchgate.net/profile/Abhi_Bhattaru">
+    <span class="fa fa fa fa-university fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/abhimaster2001">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="mailto:abhi.bhattaru@gmail.com">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<style>
+p{
+  font-size: 15px;
+  margin-bottom: .05em;
+}
+h2{
+font-weight: 500;
+}
+h3{
+font-weight: 500;
+}
+hr{
+border: 1px solid gray;
+}
+title{
+display: none;
+}
+
+.paper-listing {
+  position: relative;
+  overflow: hidden;
+}
+
+.paper-listing:hover .paper-title {
+  opacity: 1;
+}
+
+.paper-listing:hover .paper-image img {
+  filter: blur(2px);
+}
+
+.paper-image img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.paper-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(179, 0, 71);
+   
+  /* typographic styles */
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+   
+  /* position the text centrally*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* hide the title by default */
+  opacity: 0;
+  transition: opacity .5s;
+  
+  z-index: 1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media (hover: none) { 
+  .paper-title {
+    opacity: 1;
+    background: none;
+  }
+  .paper-image img {
+    filter: blur(0px);
+  }
+}
+</style>
+
+```
+
+
+<br> <br> <br>
+
+```{r webdisplay, echo=FALSE}
+library(shiny)
+yaml_info<- rmarkdown::yaml_front_matter('SCMR2020.Rmd')
+
+HTML('<h2>', yaml_info$pagetitle, '</h2>' , '<hr>')
+
+fluidRow(
+    column(4,
+      img(src=yaml_info$img_name),
+      br(),
+      p(yaml_info$date),
+      br()
+          ),
+    column(8,
+      HTML("</p>", yaml_info$description, "</p>"),
+      br(),
+          )
+)
+br()
+HTML('<h4>', 'Posters', '</h4>' , '<hr>')
+HTML('<article class="paper-listing">
+                <a class="paper-title" href="Poster.pdf">Download</a>
+                <div class="paper-image">
+                  <a href="Poster.pdf" download>
+                    <img src="Poster.png" alt="LVADIrish">
+                  </a>
+                </div>
+              </article>')
+br()
+HTML('<h4>', 'Poster', '</h4>' , '<hr>')
+      HTML('
+      <ol>
+        <li>DA Castellanos, K Škardová, <b>A Bhattaru</b>, G Greil, A Tandon, J Dillenbeck, B Burkhardt, T Hussain, M Genet, R Chabiniok. Left ventricular torsion obtained using equilibrated warping in patients with repaired Tetralogy of Fallot.
+</li>
+      </ol>
+')
+
+br()
+```

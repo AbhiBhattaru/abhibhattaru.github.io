@@ -1,0 +1,145 @@
+---
+pagetitle: "AIMed North America 2018"
+author: "Abhi Bhattaru"
+date: "December 13-15, 2018"
+img_name: "aimed.png"
+description: "AIMed is the aims eradicate challenges, define AI enabled solutions and create an efficient workplace, with patient outcomes at its core. The national meeting celebrated advances in technology and aritifical intelligence to aid diagnosis of patients. Here, I was awarded Top Abstract alongside my colleagues."
+output: 
+  html_document:
+    theme: sandstone
+    include:
+      in_header: header.html
+      after_body: footer.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{=html}
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../../index.html">Abhi Bhattaru</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="../../index.html">Home</a>
+</li>
+<li>
+  <a href="../../about.html">About</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Research
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="../../research.html">Paper Gallery</a>
+    </li>
+    <li>
+      <a href="../../listed_works.html">Listed Works</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="../../shiny.html">Applications</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://www.linkedin.com/in/abhijit-bhattaru-3693a9177">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://scholar.google.com/citations?view_op=list_works&amp;hl=en&amp;authuser=1&amp;user=WJHf9fsAAAAJ">
+    <span class="fa fa-graduation-cap fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.researchgate.net/profile/Abhi_Bhattaru">
+    <span class="fa fa fa fa-university fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/abhimaster2001">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="mailto:abhi.bhattaru@gmail.com">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<style>
+p{
+  font-size: 15px;
+  margin-bottom: .05em;
+}
+h2{
+font-weight: 500;
+}
+h3{
+font-weight: 500;
+}
+hr{
+border: 1px solid gray;
+}
+title{
+display: none;
+}
+</style>
+
+```
+
+
+<br> <br> <br>
+
+```{r webdisplay, echo=FALSE}
+library(shiny)
+yaml_info<- rmarkdown::yaml_front_matter('AIMED18.Rmd')
+
+HTML('<h2>', yaml_info$pagetitle, '</h2>' , '<hr>')
+
+fluidRow(
+    column(4,
+      img(src=yaml_info$img_name),
+      br(),
+      p(yaml_info$date),
+      br()
+          ),
+    column(8,
+      HTML("</p>", yaml_info$description, "</p>"),
+      br(),
+      HTML('<a href="https://medium.com/@sheiszel/interview-the-new-blood-of-artificial-intelligence-in-medicine-61ccd28d37a0">View Medium Article</a>')
+          )
+)
+HTML('<h4>', 'Abstract Presentation', '</h4>' , '<hr>')
+HTML('View Talk at <a href="https://www.youtube.com/embed/yT8UtxhOJzU">https://www.youtube.com/embed/yT8UtxhOJzU</a> ', '<br>', '<br>')
+HTML('
+ <ol>
+    <li><b>A Bhattaru</b>, N Deshmukh, S Makkapati, N Nakamitsu. Detecting Organ Failure in Motor Vehicle Trauma Patients: A Machine Learning Approach. Presented at: MIT Undergraduate Research and Technology Conference 2019, AIMed 2018. </li>
+ </ol>
+')
+
+br()
+```
