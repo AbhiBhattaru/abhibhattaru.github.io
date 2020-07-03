@@ -17,10 +17,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #aimed 2018
 
+```
 
-
-
-
+```{r eventlist, include=FALSE}
+list_of_events<- list("SNMMI2020",  "SVM2020", "AHAVD2020", "SCCTInnovation2020", "SCMR2020", "MITNYC2019", "MITURTC2019", "AIMED18")
 ```
 
 
@@ -120,8 +120,6 @@ hr{
 
 ``` {r testingsomething, echo=FALSE}
 library(shiny)
-list_of_events<- list("SNMMI2020",  "SVM2020", "SCCTInnovation2020", "SCMR2020", "MITNYC2019", "MITURTC2019", "AIMED18")
-
 string_files<-''
 rendered_elements<- for (i in list_of_events){
   yaml<- rmarkdown::yaml_front_matter(paste("Events/",i,'/',i,'.Rmd',  sep=''))
