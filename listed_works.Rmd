@@ -19,6 +19,9 @@ font-weight: 500;
 h3{
 font-weight: 500;
 }
+h4{
+font-weight: 500;
+}
 hr{
 border: 1px solid gray;
 }
@@ -30,7 +33,9 @@ display: none;
 
 
 <h2>Listed Works</h2>
+<br>
 <h4>Manuscripts</h4>
+<hr>
 ```{r papers, tidy=TRUE, echo=FALSE}
 library(shiny)
 em('Published')
@@ -52,8 +57,10 @@ HTML('
 </li>
   </ol>
      ')
+br()
 ```
 <h4>Abstracts</h4>
+<hr>
 ```{r abstracts, tidy=TRUE, echo=FALSE}
 library(shiny)
 em('Oral Presentations')
