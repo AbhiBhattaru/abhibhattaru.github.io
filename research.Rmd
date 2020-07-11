@@ -104,7 +104,20 @@ img {
 library(shiny)
 
 #row1
-fluidRow(
+fluidRow()
+
+
+  column(3,
+         HTML('
+              <article class="paper-listing">
+                <a class="paper-title" href="papers/BPandcardiac/BPandcardiac.pdf">BP and Cardiac Calcification in Non-Dyslipidemic</a>
+                <div class="paper-image">
+                  <a href="/papers/BPandcardiac/BPandcardiac.pdf" download>
+                    <img src="papers/BPandcardiac/BPandcardiac.png" alt="BPandcardiac">
+                  </a>
+                </div>
+              </article>
+              '))
   column(3,
          HTML('
               <article class="paper-listing">
@@ -115,7 +128,7 @@ fluidRow(
                   </a>
                 </div>
               </article>
-              ')),
+              '))
   column(3,
          HTML('
               <article class="paper-listing">
@@ -126,7 +139,7 @@ fluidRow(
                   </a>
                 </div>
               </article>
-              ')),
+              '))
   column(3,
          HTML('
               <article class="paper-listing">
@@ -137,9 +150,9 @@ fluidRow(
                   </a>
                 </div>
               </article>
-              ')),
-  column(3)
-)
+              '))
+
+fluidRow()
 
 ```
 
@@ -148,7 +161,7 @@ fluidRow(
 ```{r ReviewArticles, tidy=TRUE, echo=FALSE}
 #row1
 
-fluidRow(
+fluidRow()
   column(3,
          HTML('
               <article class="paper-listing">
@@ -161,14 +174,14 @@ fluidRow(
               </article>
               ')
          )
-)
+fluidRow()
 ```
 
 <br>
 <h4>Case Reports</h4>
 ```{r CaseReports, tidy=TRUE, echo=FALSE}
 #row1
-fluidRow(
+fluidRow()
   column(3,
          HTML('
               <article class="paper-listing">
@@ -180,7 +193,7 @@ fluidRow(
                 </div>
               </article>
               ')
-         ),
+         )
   column(3,
          HTML('
               <article class="paper-listing">
@@ -193,7 +206,7 @@ fluidRow(
               </article>
               ')
          )
-)
+fluidRow()
 ```
 
 

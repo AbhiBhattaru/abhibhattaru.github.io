@@ -41,20 +41,20 @@ library(shiny)
 em('Published')
 HTML('
   <ol>
-    <li>C Rojulpote, K Gonuguntla, S Patil, <b>A Bhattaru</b>, PE Bravo. COVID-19 and the Heart. Colombia Médica. June 3, 2020.</li>
-    <li>K Gonuguntla, S Patil, RG Cowden, M Kumar, C Rojulpote, <b>A Bhattaru</b>, JG Tiu, P Robinson. Predictors of in-hospital mortality in patients with left ventricular assist device. Irish Journal of Medical Science. May 9, 2020.</li>
-    <li>S Durugu, K Gonuguntla, S Patil, C Rojulpote, V Vyata, P Karambelkar, P Narayanareddy, K Vuthaluru, <b>A Bhattaru</b>. Gender Differences in Rates of Arrhythmias, Cardiac Implantable Electronic Devices, and Diagnostic Modalities Among Sarcoidosis Patients. Cureus. April 14, 2020</li>
-    <li>K Gonuguntla, S Patil, NV Gadela, RC Cowden, C Rojulpote, S Durugu, P Karambelkar, <b>A Bhattaru</b>, AJ Borja, V Zhang. Trends, Outcomes, and Predictors of Sepsis and Severe Sepsis in Patients with Left Ventricular Assist Devices. Cureus. April 3, 2020.</li>
-    <li>C Rojulpote, A Matthew, MK Yarlagadda, <b>A Bhattaru</b>, K Vuthaluru. Conned by Conn’s: The Manifestation of Conn’s Syndrome Post-renal Transplant in a Patient with Polycystic Kidney Disease. Cureus. April 2, 2020. </li>
+    <li>C Rojulpote, S Patil, K Gonuguntla, PE Bravo, SM Seraj, S Asadollahi, WY Raynor, <b>A Bhattaru</b>, P Karambelkar, AJ Borja, V Zhang, TJ Werner, O Gerke, PF Hoilund-Carlsen, A Alavi. Role of NaF-PET/CT in Detecting and Quantifying Subclinical Global Cardiac Atherosclerosis and its Association with Blood Pressure in Non-Dyslipidemic Individuals. <em>American Journal of Cardiovascular Disease.</em> June 15, 2020. </li>
+    <li>C Rojulpote, K Gonuguntla, S Patil, <b>A Bhattaru</b>, PE Bravo. COVID-19 and the Heart. <em>Colombia Médica.</em> June 3, 2020.</li>
+    <li>K Gonuguntla, S Patil, RG Cowden, M Kumar, C Rojulpote, <b>A Bhattaru</b>, JG Tiu, P Robinson. Predictors of in-hospital mortality in patients with left ventricular assist device. <em>Irish Journal of Medical Science.</em> May 9, 2020.</li>
+    <li>S Durugu, K Gonuguntla, S Patil, C Rojulpote, V Vyata, P Karambelkar, P Narayanareddy, K Vuthaluru, <b>A Bhattaru</b>. Gender Differences in Rates of Arrhythmias, Cardiac Implantable Electronic Devices, and Diagnostic Modalities Among Sarcoidosis Patients. <em>Cureus.</em> April 14, 2020</li>
+    <li>K Gonuguntla, S Patil, NV Gadela, RC Cowden, C Rojulpote, S Durugu, P Karambelkar, <b>A Bhattaru</b>, AJ Borja, V Zhang. Trends, Outcomes, and Predictors of Sepsis and Severe Sepsis in Patients with Left Ventricular Assist Devices. <em>Cureus.</em> April 3, 2020.</li>
+    <li>C Rojulpote, A Matthew, MK Yarlagadda, <b>A Bhattaru</b>, K Vuthaluru. Conned by Conn’s: The Manifestation of Conn’s Syndrome Post-renal Transplant in a Patient with Polycystic Kidney Disease. <em>Cureus</em>. April 2, 2020. </li>
   </ol>
      ')
 em('In Press')
 HTML('
   <ol>
-    <li>S Patil, C Rojulpote, K Gonuguntla, P Karambelkar, <b>A Bhattaru</b>, WY Raynor, AJ Borja, K Vuthaluru, V Zhang, TJ Werner, O Gerke, PF Høilund-Carlsen, A Alavi. Association of Triglyceride to High Density Lipoprotein Ratio with Global Cardiac Microcalcification in Healthy Non-diabetic Individuals as Assessed by NaF-PET/CT to Evaluate Subclinical Coronary Atherosclerosis. American Journal for Cardiovascular Disease.</li>
-    <li>V Zhang, B Koa, AJ Borja, S Padmanhabhan, <b>A Bhattaru</b>, WY Raynor, C Rojulpote, SM Seraj, TJ Werner, C Rajapakse, A Alavi, ME Revheim. Diagnosis and Monitoring of Osteoperosis with Total-Body 18F-Sodium Fluoride Positron Emission Tomography/Computed Tomography. PET Clinics.</li>
-    <li>C Rojulpote, S Patil, K Gonuguntla, PE Bravo, SM Seraj, S Asadollahi, WY Raynor, <b>A Bhattaru</b>, P Karambelkar, AJ Borja, V Zhang, TJ Werner, O Gerke, PF Hoilund-Carlsen, A Alavi. Role of NaF-PET/CT in Detecting and Quantifying Subclinical Global Cardiac Atherosclerosis and its Association with Blood Pressure in Non-Dyslipidemic Individuals. American Journal for Cardiovascular Disease.</li>
-    <li><b>A Bhattaru</b>, N Deshmukh, S Makkapati, N Nakamitsu. Detecting Organ Failure in Motor Vehicle Trauma Patients: A Machine Learning Approach. IEEE Xplore.
+    <li>S Patil, C Rojulpote, K Gonuguntla, P Karambelkar, <b>A Bhattaru</b>, WY Raynor, AJ Borja, K Vuthaluru, V Zhang, TJ Werner, O Gerke, PF Høilund-Carlsen, A Alavi. Association of Triglyceride to High Density Lipoprotein Ratio with Global Cardiac Microcalcification in Healthy Non-diabetic Individuals as Assessed by NaF-PET/CT to Evaluate Subclinical Coronary Atherosclerosis. <em>American Journal of Cardiovascular Disease.</em></li>
+    <li>V Zhang, B Koa, AJ Borja, S Padmanhabhan, <b>A Bhattaru</b>, WY Raynor, C Rojulpote, SM Seraj, TJ Werner, C Rajapakse, A Alavi, ME Revheim. Diagnosis and Monitoring of Osteoperosis with Total-Body 18F-Sodium Fluoride Positron Emission Tomography/Computed Tomography. <em>PET Clinics.</em></li>
+    <li><b>A Bhattaru</b>, N Deshmukh, S Makkapati, N Nakamitsu. Detecting Organ Failure in Motor Vehicle Trauma Patients: A Machine Learning Approach. <em>IEEE Xplore.</em>
 </li>
   </ol>
      ')
@@ -74,27 +74,27 @@ HTML('
 em('Poster Presentations')
 HTML('
   <ol>
-    <li><b>A Bhattaru</b>, A Tandon, R Davies, D Sutcliffe, R Butts, J Dillenbeck, G Greil, T Hussain. Role of Computed Tomography in Pediatric Ventricular Assist Device Fitting. Journal of Cardiovascular Computed Tomography. July 17, 2020. Presented at: Society of Cardiovascular Computed Tomography 2020. </li>
-    <li>C Rojulpote, S Patil, K Gonuguntla, PE Bravo, P Karambelkar, <b>A Bhattaru</b>, V Zhang, T Werner, O Gerke, P Hoilund-Carlsen, A Alavi. Association of Atherosclerotic Cardiovascular Risk Estimated by Pooled Cohort Equation With Coronary Plaque Burden as Assessed by NaF-PET/CT. Arteriosclerosis, Thrombosis, and Vascular Biology. June 29, 2020.  Presented at: AHA Vascular Discovery 2020. </li?
-    <li>C Rojulpote, S Patil, K Gonuguntla, P Karambelkar, <b>A Bhattaru</b>, S Asadollahi, T Werner, P Hoilund-Carlsen, A Alavi. Comparison of atherosclerotic burden in non- lower extremity vasculature in patients with and without peripheral artery disease using 18F- sodium fluoride imaging. Vascular Medicine. May 22, 2020. Presented at: Society of Vascular Medicine 2020.
+    <li><b>A Bhattaru</b>, A Tandon, R Davies, D Sutcliffe, R Butts, J Dillenbeck, G Greil, T Hussain. Role of Computed Tomography in Pediatric Ventricular Assist Device Fitting. <em>Journal of Cardiovascular Computed Tomography.</em> July 17, 2020. Presented at: Society of Cardiovascular Computed Tomography 2020. </li>
+    <li>C Rojulpote, S Patil, K Gonuguntla, PE Bravo, P Karambelkar, <b>A Bhattaru</b>, V Zhang, T Werner, O Gerke, P Hoilund-Carlsen, A Alavi. Association of Atherosclerotic Cardiovascular Risk Estimated by Pooled Cohort Equation With Coronary Plaque Burden as Assessed by NaF-PET/CT. <em>Arteriosclerosis, Thrombosis, and Vascular Biology.</em> June 29, 2020.  Presented at: AHA Vascular Discovery 2020. </li?
+    <li>C Rojulpote, S Patil, K Gonuguntla, P Karambelkar, <b>A Bhattaru</b>, S Asadollahi, T Werner, P Hoilund-Carlsen, A Alavi. Comparison of atherosclerotic burden in non- lower extremity vasculature in patients with and without peripheral artery disease using 18F- sodium fluoride imaging. <em>Vascular Medicine.</em> May 22, 2020. Presented at: Society of Vascular Medicine 2020.
 </li>
-    <li><b>A Bhattaru</b>, A Borja, V Zhang, KV Rojulpote, T Werner, A Alavi, ME Revheim. FDG-PET/CT as the superior imaging modality for inflammatory bowel disease. Journal of Nuclear Medicine. May 1, 2020. Presented at: Society of Nuclear Medicine and Molecular Imaging 2020.
+    <li><b>A Bhattaru</b>, A Borja, V Zhang, KV Rojulpote, T Werner, A Alavi, ME Revheim. FDG-PET/CT as the superior imaging modality for inflammatory bowel disease. <em>Journal of Nuclear Medicine.</em> May 1, 2020. Presented at: Society of Nuclear Medicine and Molecular Imaging 2020.
 </li>
-    <li><b>A Bhattaru</b>, V Zhang, E Hancin, A Borja, KV Rojulpote, T Werner, ME Revheim, A Alavi. Potential applications of FDG-PET/MRI in detecting vascular dementia. Journal of Nuclear Medicine. May 1, 2020. Presented at: Society of Nuclear Medicine and Molecular Imaging 2020.
+    <li><b>A Bhattaru</b>, V Zhang, E Hancin, A Borja, KV Rojulpote, T Werner, ME Revheim, A Alavi. Potential applications of FDG-PET/MRI in detecting vascular dementia. <em>Journal of Nuclear Medicine.</em> May 1, 2020. Presented at: Society of Nuclear Medicine and Molecular Imaging 2020.
 </li>
-    <li>C Rojulpote, <b>A Bhattaru</b>, S Patil, K Gonuguntla, ME Revheim, B Koa, E Hancin, T Werner, A Alavi. Role of PET Imaging in Detection and Management of Arrhythmias. Journal of Nuclear Medicine. May 1, 2020. Presented at: Society of Nuclear Medicine and Molecular Imaging 2020.
+    <li>C Rojulpote, <b>A Bhattaru</b>, S Patil, K Gonuguntla, ME Revheim, B Koa, E Hancin, T Werner, A Alavi. Role of PET Imaging in Detection and Management of Arrhythmias. <em>Journal of Nuclear Medicine.</em> May 1, 2020. Presented at: Society of Nuclear Medicine and Molecular Imaging 2020.
 </li>
-    <li>V Zhang, <b>A Bhattaru</b>, C Rojulpote, A Borja, A Madiraju, T Werner, A Alavi, ME Revheim. Role of PET/CT Imaging in the Assessment of Pulmonary Artery Atherosclerosis. Journal of Nuclear Medicine. May 1, 2020. Presented at: Society of Nuclear Medicine and Molecular Imaging 2020.
+    <li>V Zhang, <b>A Bhattaru</b>, C Rojulpote, A Borja, A Madiraju, T Werner, A Alavi, ME Revheim. Role of PET/CT Imaging in the Assessment of Pulmonary Artery Atherosclerosis. <em>Journal of Nuclear Medicine.</em> May 1, 2020. Presented at: Society of Nuclear Medicine and Molecular Imaging 2020.
 </li>
-    <li>E Hancin, A Borja, <b>A Bhattaru</b>, SM Seraj, KV Rojulpote, T Werner, A Alavi, ME Revheim. Applications of FDG-PET/CT and NaF-PET/CT in the Surgical Management of Musculoskeletal Infection. Journal of Nuclear Medicine. May 1, 2020. Presented at: Society of Nuclear Medicine and Molecular Imaging 2020.
+    <li>E Hancin, A Borja, <b>A Bhattaru</b>, SM Seraj, KV Rojulpote, T Werner, A Alavi, ME Revheim. Applications of FDG-PET/CT and NaF-PET/CT in the Surgical Management of Musculoskeletal Infection. <em>Journal of Nuclear Medicine.</em> May 1, 2020. Presented at: Society of Nuclear Medicine and Molecular Imaging 2020.
 </li>
-    <li>V Zhang, C Rojulpote, AJ Borja, A Madiraju, <b>A Bhattaru</b>, S Patil, K Gonuguntla, TJ Werner, PF Hoilund-Carlsen, ME Revheim, A Alavi. NaF Uptake in the Pulmonary Artery Stratified by Systemic Blood Pressure: A Novel Methodology. Journal of Nuclear Medicine. May 1, 2020. Presented at: Society of Nuclear Medicine and Molecular Imaging 2020.
+    <li>V Zhang, C Rojulpote, AJ Borja, A Madiraju, <b>A Bhattaru</b>, S Patil, K Gonuguntla, TJ Werner, PF Hoilund-Carlsen, ME Revheim, A Alavi. NaF Uptake in the Pulmonary Artery Stratified by Systemic Blood Pressure: A Novel Methodology. <em>Journal of Nuclear Medicine.</em> May 1, 2020. Presented at: Society of Nuclear Medicine and Molecular Imaging 2020.
 </li>
-    <li>S Patil, K Gonuguntla, C Rojulpote, V Zhang, B Koa, <b>A Bhattaru</b>, ME Revheim, T Werner, A Alavi. Role of PET Imaging in Aortic Stenosis. Journal of Nuclear Medicine. May 1, 2020. Presented at: Society of Nuclear Medicine and Molecular Imaging 2020.
+    <li>S Patil, K Gonuguntla, C Rojulpote, V Zhang, B Koa, <b>A Bhattaru</b>, ME Revheim, T Werner, A Alavi. Role of PET Imaging in Aortic Stenosis. <em>Journal of Nuclear Medicine.</em> May 1, 2020. Presented at: Society of Nuclear Medicine and Molecular Imaging 2020.
 </li>
-    <li>V Zhang, S Padmanabhan, B Koa, A Borja, WY Raynor, A Madiraju, <b>A Bhattaru</b>, KV Rojulpote, C Rajapakse, T Werner, ME Revheim, A Alavi. Total-Body NaF-PET/CT and its Implications for Osteoporosis. Journal of Nuclear Medicine. May 1, 2020. Presented at: Society of Nuclear Medicine and Molecular Imaging 2020.
+    <li>V Zhang, S Padmanabhan, B Koa, A Borja, WY Raynor, A Madiraju, <b>A Bhattaru</b>, KV Rojulpote, C Rajapakse, T Werner, ME Revheim, A Alavi. Total-Body NaF-PET/CT and its Implications for Osteoporosis. <em>Journal of Nuclear Medicine.</em> May 1, 2020. Presented at: Society of Nuclear Medicine and Molecular Imaging 2020.
 </li>
-    <li>C Rojulpote, S Patil, K Gonuguntla, ME Revheim, R Ghorpade, P Narayanareddy, <b>A Bhattaru</b>, TJ Werner, O Gerke, PF Hoilund-Carlsen, A Alavi. Role of NaF-PET/CT in Detecting and Quantifying Global Cardiac Subclinical Atherosclerosis in Healthy Individuals with an Optimal Lipid Profile and its Association with Blood Pressure. Journal of Nuclear Medicine. May 1, 2020. Presented at: Society of Nuclear Medicine and Molecular Imaging 2020.
+    <li>C Rojulpote, S Patil, K Gonuguntla, ME Revheim, R Ghorpade, P Narayanareddy, <b>A Bhattaru</b>, TJ Werner, O Gerke, PF Hoilund-Carlsen, A Alavi. Role of NaF-PET/CT in Detecting and Quantifying Global Cardiac Subclinical Atherosclerosis in Healthy Individuals with an Optimal Lipid Profile and its Association with Blood Pressure. <em>Journal of Nuclear Medicine.</em> May 1, 2020. Presented at: Society of Nuclear Medicine and Molecular Imaging 2020.
 </li>
     <li>DA Castellanos, K Škardová, <b>A Bhattaru</b>, G Greil, A Tandon, J Dillenbeck, B Burkhardt, T Hussain, M Genet, R Chabiniok. Left ventricular torsion obtained using equilibrated warping in patients with repaired Tetralogy of Fallot. Presented at: Society for Cardiovascular Magnetic Resonance 2020.
 </li>
