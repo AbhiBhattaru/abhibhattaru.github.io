@@ -5,22 +5,10 @@ pagetitle: Home
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-#events:
-#snmmi
-#svm
-#scct innovation
-#scmr 2020
-#mit grand hack
-#mit urtc
-
-#aha vascular discovery
-
-#aimed 2018
-
 ```
 
 ```{r eventlist, include=FALSE}
-list_of_events<- list("SNMMI2020",  "SVM2020", "AHAVD2020", "SCCTInnovation2020", "SCMR2020", "MITNYC2019", "MITURTC2019", "AIMED18")
+list_of_events<- list("SCCT2020", "SNMMI2020",  "SVM2020", "AHAVD2020", "SCCTInnovation2020", "SCMR2020", "MITNYC2019", "MITURTC2019", "AIMED18")
 ```
 
 

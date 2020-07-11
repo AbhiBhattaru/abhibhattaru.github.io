@@ -67,6 +67,7 @@ library(shiny)
 em('Oral Presentations')
 HTML('
  <ol>
+    <li><b>A Bhattaru</b>, A Tandon, R Davies, D Sutcliffe, R Butts, J Dillenbeck, G Greil, T Hussain. Role of Computed Tomography in Pediatric Ventricular Assist Device Fitting. <em>Journal of Cardiovascular Computed Tomography.</em> July 17, 2020. Presented at: Society of Cardiovascular Computed Tomography 2020. </li>
     <li><b>A Bhattaru</b>, V Gooty, J Dillenbeck, T Hussain. Practical Challenges of Machine Learning on the diagnosis of Cardiac Allograft Vasculopathy using Computed Tomography in pediatrics. Presented at: SCCT Innovation 2020.</li>
     <li><b>A Bhattaru</b>, N Deshmukh, S Makkapati, N Nakamitsu. Detecting Organ Failure in Motor Vehicle Trauma Patients: A Machine Learning Approach. Presented at: MIT Undergraduate Research and Technology Conference 2019, AIMed 2018. </li>
  </ol>
@@ -74,7 +75,6 @@ HTML('
 em('Poster Presentations')
 HTML('
   <ol>
-    <li><b>A Bhattaru</b>, A Tandon, R Davies, D Sutcliffe, R Butts, J Dillenbeck, G Greil, T Hussain. Role of Computed Tomography in Pediatric Ventricular Assist Device Fitting. <em>Journal of Cardiovascular Computed Tomography.</em> July 17, 2020. Presented at: Society of Cardiovascular Computed Tomography 2020. </li>
     <li>C Rojulpote, S Patil, K Gonuguntla, PE Bravo, P Karambelkar, <b>A Bhattaru</b>, V Zhang, T Werner, O Gerke, P Hoilund-Carlsen, A Alavi. Association of Atherosclerotic Cardiovascular Risk Estimated by Pooled Cohort Equation With Coronary Plaque Burden as Assessed by NaF-PET/CT. <em>Arteriosclerosis, Thrombosis, and Vascular Biology.</em> June 29, 2020.  Presented at: AHA Vascular Discovery 2020. </li?
     <li>C Rojulpote, S Patil, K Gonuguntla, P Karambelkar, <b>A Bhattaru</b>, S Asadollahi, T Werner, P Hoilund-Carlsen, A Alavi. Comparison of atherosclerotic burden in non- lower extremity vasculature in patients with and without peripheral artery disease using 18F- sodium fluoride imaging. <em>Vascular Medicine.</em> May 22, 2020. Presented at: Society of Vascular Medicine 2020.
 </li>
