@@ -1,0 +1,149 @@
+---
+pagetitle: "CHEST Annual Meeting 2020"
+author: "Abhi Bhattaru"
+date: "October 18-21, 2020"
+img_name: "CHEST2020.jpg"
+description: "The mission of the CHEST Foundation is to champion lung and cardiovascular health by supporting clinical research, community service, and patient education. At the CHEST 2020 meeting, new research will be showcased that further the missions of the CHEST organization. View published posters"
+output: 
+  html_document:
+    theme: sandstone
+    include:
+      in_header: header.html
+      after_body: footer.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{=html}
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../../index.html">Abhi Bhattaru</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="../../index.html">Home</a>
+</li>
+<li>
+  <a href="../../about.html">About</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Research
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="../../research.html">Paper Gallery</a>
+    </li>
+    <li>
+      <a href="../../listed_works.html">Listed Works</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="../../shiny.html">Applications</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://www.linkedin.com/in/abhijit-bhattaru-3693a9177">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://scholar.google.com/citations?view_op=list_works&amp;hl=en&amp;authuser=1&amp;user=WJHf9fsAAAAJ">
+    <span class="fa fa-graduation-cap fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.researchgate.net/profile/Abhi_Bhattaru">
+    <span class="fa fa fa fa-university fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/abhimaster2001">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="mailto:abhi.bhattaru@gmail.com">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<style>
+p{
+  font-size: 15px;
+  margin-bottom: .05em;
+}
+h2{
+font-weight: 500;
+}
+h3{
+font-weight: 500;
+}
+h4{
+font-weight: 500;
+}
+hr{
+border: 1px solid gray;
+}
+title{
+display: none;
+}
+</style>
+
+```
+
+
+<br> <br> <br>
+
+```{r webdisplay, echo=FALSE}
+library(shiny)
+yaml_info<- rmarkdown::yaml_front_matter('CHEST2020.Rmd')
+
+HTML('<h2>', yaml_info$pagetitle, '</h2>' , '<hr>')
+
+fluidRow(
+    column(4,
+      img(src=yaml_info$img_name),
+      br(),
+      p(yaml_info$date),
+      br()
+          ),
+    column(8,
+      HTML("</p>", yaml_info$description, "</p>"),
+      br()
+          )
+)
+br()
+HTML('<h4>', 'Poster Presentation', '</h4>' , '<hr>')
+HTML('
+ <ol>
+    <li>V Zhang, C Rojulpote, AJ Borja, A Madiraju, <b>A Bhattaru</b>, K Gonuguntla, S Patil, TJ Werner, A Alavi, ME Revheim. Correlation between age and pulmonary artery calcification: a novel finding assessed by 18F NaF-PET/CT. <em>CHEST</em>. Presented at: CHEST annual meeting 2020.</li>
+    <li>CS Rojulpote, K Gonuguntla, S Patil, P Karambelkar, A Gade, <b>A Bhattaru</b>. Predictors of in-hospital mortality in Sarcoidosis patients with cardiomyopathy. <em>CHEST</em>. Presented at: CHEST annual meeting 2020.</li>
+    <li>CS Rojulpote, S Patil, K Gonuguntla, P Karambelkar, ZE Borja, M Kumar, V Zhang, <b>A Bhattaru</b>, A Gade. A nation wide cohort analysis of pneumococcal vaccination and prevalence of in-hospital mortality in acute coronary syndrome. <em>CHEST</em>. Presented at: CHEST annual meeting 2020.</li>
+ </ol>
+')
+
+br()
+```

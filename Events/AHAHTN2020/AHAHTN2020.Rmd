@@ -1,0 +1,154 @@
+---
+pagetitle: "American Heart Association Hypertension 2020"
+author: "Abhi Bhattaru"
+date: "Sept 10-13, 2020"
+img_name: "AHAHTN2020.png"
+description: "The meeting will focus on recent advances in hypertension research and foster connections among experts in hypertension and its relationship to cardiac and kidney disease, stroke, obesity and genetics. AHA’s Hypertension Scientific Sessions is a collaborative effort between AHA’s Council on Hypertension and Council on the Kidney in Cardiovascular Disease. View oral and poster presentations."
+output: 
+  html_document:
+    theme: sandstone
+    include:
+      in_header: header.html
+      after_body: footer.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{=html}
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../../index.html">Abhi Bhattaru</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="../../index.html">Home</a>
+</li>
+<li>
+  <a href="../../about.html">About</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Research
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="../../research.html">Paper Gallery</a>
+    </li>
+    <li>
+      <a href="../../listed_works.html">Listed Works</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="../../shiny.html">Applications</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://www.linkedin.com/in/abhijit-bhattaru-3693a9177">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://scholar.google.com/citations?view_op=list_works&amp;hl=en&amp;authuser=1&amp;user=WJHf9fsAAAAJ">
+    <span class="fa fa-graduation-cap fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.researchgate.net/profile/Abhi_Bhattaru">
+    <span class="fa fa fa fa-university fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/abhimaster2001">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="mailto:abhi.bhattaru@gmail.com">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<style>
+p{
+  font-size: 15px;
+  margin-bottom: .05em;
+}
+h2{
+font-weight: 500;
+}
+h3{
+font-weight: 500;
+}
+h4{
+font-weight: 500;
+}
+hr{
+border: 1px solid gray;
+}
+title{
+display: none;
+}
+</style>
+
+```
+
+
+<br> <br> <br>
+
+```{r webdisplay, echo=FALSE}
+library(shiny)
+yaml_info<- rmarkdown::yaml_front_matter('AHAHTN2020.Rmd')
+
+HTML('<h2>', yaml_info$pagetitle, '</h2>' , '<hr>')
+
+fluidRow(
+    column(4,
+      img(src=yaml_info$img_name),
+      br(),
+      p(yaml_info$date),
+      br()
+          ),
+    column(8,
+      HTML("</p>", yaml_info$description, "</p>"),
+      br()
+          )
+)
+br()
+HTML('<h4>', 'Oral Presentation', '</h4>' , '<hr>', '<p>Nominated for Top Trainee Advocacy Award</p>')
+HTML('<p>Presentation will be uploaded after the meeting</p>')
+br()
+HTML('<ol>
+        <li><b>A Bhattaru</b>, C Rojulpote, R Ghorpade, PE Bravo, S Patil, K Gonuguntla, P Karambelkar, K Vuthaluru, V Zhang, TJ Werner, A Alavi. Correlation Between Blood Pressure And Inflammation In The Thoracic Aorta Of HIV Patients With And Without Cocaine Use As Assessed By FDG-PET/CT. <em>Hypertension</em>. Presented at: American Heart Association Hypertension 2020.</li>
+     </ol>')
+br()
+HTML('<h4>', 'Poster Presentation', '</h4>' , '<hr>')
+HTML('
+ <ol>
+     <li><b>A Bhattaru</b>, R Ghorpade, C Rojulpote, PE Bravo, S Patil, K Gonuguntla, P Karambelkar, K Vuthaluru, V Zhang, TJ Werner, A Alavi. Correlation Between Blood Pressure And Left Ventricular Metabolism In HIV Individuals With And Without Cocaine Use As Assessed By FDG-PET/CT. <em>Hypertension</em>. Presented at: American Heart Association Hypertension 2020.</li>
+ </ol>
+')
+
+br()
+```

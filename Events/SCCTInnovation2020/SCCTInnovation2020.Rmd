@@ -3,7 +3,7 @@ pagetitle: "Society of Cardiovascular Computed Tomography Innovation Series 2020
 author: "Abhi Bhattaru"
 date: "April 24, 2020"
 img_name: "SCCTinnovation2020.png"
-description: "This meeting will focus on developments in AI and ML, that have the potential to impact on cardiovascular medicine and cardiovascular CT. Recognizing that within these boundaries the potential of these technologies is still broad, this first meeting is focued on the theme of coronary artery disease, allowing for an in-depth discussion on clinical applications of these technologies with a wide range of stakeholders from clinical, academic and commercial arenas."
+description: "This meeting will focus on developments in AI and ML that have the potential to impact on cardiovascular medicine and cardiovascular CT. Recognizing that within these boundaries the potential of these technologies is still broad, this first meeting is focused on the theme of coronary artery disease, allowing for an in-depth discussion on clinical applications of these technologies with a wide range of stakeholders from clinical, academic and commercial arenas."
 output: 
   html_document:
     theme: sandstone

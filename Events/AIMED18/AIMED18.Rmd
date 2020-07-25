@@ -3,7 +3,7 @@ pagetitle: "AIMed North America 2018"
 author: "Abhi Bhattaru"
 date: "December 13-15, 2018"
 img_name: "aimed.png"
-description: "AIMed is the aims eradicate challenges, define AI enabled solutions and create an efficient workplace, with patient outcomes at its core. The national meeting celebrated advances in technology and aritifical intelligence to aid diagnosis of patients. Here, I was awarded Top Abstract alongside my colleagues."
+description: "AIMed is the aims eradicate challenges, define AI enabled solutions and create an efficient workplace, with patient outcomes at its core. The national meeting celebrated advances in technology and artificial intelligence to aid diagnosis of patients. Here, I was awarded Top Abstract alongside my colleagues."
 output: 
   html_document:
     theme: sandstone

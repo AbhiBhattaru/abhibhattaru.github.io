@@ -200,7 +200,7 @@ HTML('<article class="paper-listing">
                 <a class="paper-title" href="Poster.pdf">Download</a>
                 <div class="paper-image">
                   <a href="Poster.pdf" download>
-                    <img src="Poster.png" alt="LVADIrish">
+                    <img src="Poster.png" alt="SlideDeck">
                   </a>
                 </div>
               </article>')

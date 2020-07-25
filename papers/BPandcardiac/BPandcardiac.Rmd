@@ -1,5 +1,5 @@
 ---
-title: "Role of NaF-PET/CT in Detecting and Quantifying Subclinical Global Cardiac Atherosclerosis and its Association with Blood Pressure in Non-Dyslipidemic Individuals."
+title: "NaF-PET/CT global assessment in detecting and quantifying subclinical cardiac atherosclerosis and its association with blood pressure in non-dyslipidemic individuals"
 author:
   - "Chaitanya Rojulpote, Shivaraj Patil, Karthik Gonuguntla, Paco E Bravo,"
   - "Siavash M Seraj, Shadi Asadollahi, William Y Raynor,"
@@ -32,7 +32,7 @@ urlcolor: blue
 knitr::include_graphics('case.png')
 ```
 
-Full Text:\href {http://www.ajcd.us/files/ajcd0114898.pdf}{AJCD 0114898} | Pubmed: \href {http://www.ajcd.us/files/ajcd0114898.pdf}{Coming Soon}
+Full Text:\href {http://www.ajcd.us/files/ajcd0114898.pdf}{AJCD 0114898} | Pubmed: \href {https://pubmed.ncbi.nlm.nih.gov/32685267/}{32685267}
 
 
 \end{center}

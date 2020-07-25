@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r eventlist, include=FALSE}
-list_of_events<- list("SCCT2020", "SNMMI2020",  "SVM2020", "AHAVD2020", "SCCTInnovation2020", "SCMR2020", "MITNYC2019", "MITURTC2019", "AIMED18")
+list_of_events<- list("AHAHTN2020", "ASNC2020", "SCCT2020", "SNMMI2020",  "SVM2020", "AHAVD2020", "SCCTInnovation2020", "SCMR2020", "MITNYC2019", "MITURTC2019", "AIMED18")
 ```
 
 

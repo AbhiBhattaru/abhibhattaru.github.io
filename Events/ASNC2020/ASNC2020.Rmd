@@ -1,0 +1,149 @@
+---
+pagetitle: "American Society of Nuclear Cardiology 2020"
+author: "Abhi Bhattaru"
+date: "Sept 3 - Oct 14, 2020"
+img_name: "asnc2020.jpg"
+description: "Nuclear cardiology is an evolving field with continuing advances in software, instrumentation and radiopharmaceuticals to provide high quality clinically relevant information for patient care. These advances require those involved in the providing nuclear cardiology studies to be continuously updated to ensure that the procedures are used appropriately and safely and that recent clinical and technological advances are incorporated in a timely manner to continue to improve the image quality and interpretation to provide the best clinical care. ASNC 2020 showcases the recent advances made in nuclear cardiology. View published posters"
+output: 
+  html_document:
+    theme: sandstone
+    include:
+      in_header: header.html
+      after_body: footer.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{=html}
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../../index.html">Abhi Bhattaru</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="../../index.html">Home</a>
+</li>
+<li>
+  <a href="../../about.html">About</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Research
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="../../research.html">Paper Gallery</a>
+    </li>
+    <li>
+      <a href="../../listed_works.html">Listed Works</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="../../shiny.html">Applications</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://www.linkedin.com/in/abhijit-bhattaru-3693a9177">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://scholar.google.com/citations?view_op=list_works&amp;hl=en&amp;authuser=1&amp;user=WJHf9fsAAAAJ">
+    <span class="fa fa-graduation-cap fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.researchgate.net/profile/Abhi_Bhattaru">
+    <span class="fa fa fa fa-university fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/abhimaster2001">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="mailto:abhi.bhattaru@gmail.com">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<style>
+p{
+  font-size: 15px;
+  margin-bottom: .05em;
+}
+h2{
+font-weight: 500;
+}
+h3{
+font-weight: 500;
+}
+h4{
+font-weight: 500;
+}
+hr{
+border: 1px solid gray;
+}
+title{
+display: none;
+}
+</style>
+
+```
+
+
+<br> <br> <br>
+
+```{r webdisplay, echo=FALSE}
+library(shiny)
+yaml_info<- rmarkdown::yaml_front_matter('ASNC2020.Rmd')
+
+HTML('<h2>', yaml_info$pagetitle, '</h2>' , '<hr>')
+
+fluidRow(
+    column(4,
+      img(src=yaml_info$img_name),
+      br(),
+      p(yaml_info$date),
+      br()
+          ),
+    column(8,
+      HTML("</p>", yaml_info$description, "</p>"),
+      br()
+          )
+)
+br()
+HTML('<h4>', 'Poster Presentation', '</h4>' , '<hr>')
+HTML('
+ <ol>
+     <li>K Gonuguntla, C Rojulpote, S Patil, P Karambelkar, <b>A Bhattaru</b>, K Vuthaluru, TJ Werner, PF Hoilund-Carlsen, A Alavi. Atherosclerotic Cardiovascular Disease Risk Estimated by Pooled Cohort Equation Predicts Global Cardiac Microcalcification in Patients with Angina. <em>Journal of Nuclear Cardiology</em>. Presented at: American Society of Nuclear Cardiology 2020 meeting.</li>
+    <li>K Gonuguntla, C Rojulpote, S Patil, P Karambelkar, K Vuthaluru, <b>A Bhattaru</b>, V Zhang, TJ Werner, PF Hoilund-Carlsen, A Alavi. Presence of Coronary Molecular Calcification and its Correlation to Calcification Processes in Upper Limb, Abdominal and Lower Extremity Arteries as Assessed by NaF-PET/CT. <em>Journal of Nuclear Cardiology</em>. Presented at: American Society of Nuclear Cardiology 2020 meeting.</li>
+    <li>K Gonuguntla, C Rojulpote, S Patil, P Karambelkar, K Vuthaluru, <b>A Bhattaru</b>, V Zhang, TJ Werner, PF Hoilund-Carlsen, A Alavi. Utility of NaF-PET/CT in Assessing Subclinical Atherosclerosis in Peripheral Arteries of Healthy Individuals with an Optimal Cardiovascular Risk Factor Profile. <em>Journal of Nuclear Cardiology</em>. Presented at: American Society of Nuclear Cardiology 2020 meeting.</li>
+ </ol>
+')
+
+br()
+```
