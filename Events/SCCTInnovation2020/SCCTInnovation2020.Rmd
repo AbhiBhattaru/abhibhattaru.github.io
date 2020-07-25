@@ -110,6 +110,67 @@ border: 1px solid gray;
 title{
 display: none;
 }
+
+.paper-listing {
+  position: relative;
+  overflow: hidden;
+}
+
+.paper-listing:hover .paper-title {
+  opacity: 1;
+}
+
+.paper-listing:hover .paper-image img {
+  filter: blur(2px);
+}
+
+.paper-image img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.paper-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(179, 0, 71);
+   
+  /* typographic styles */
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+   
+  /* position the text centrally*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* hide the title by default */
+  opacity: 0;
+  transition: opacity .5s;
+  
+  z-index: 1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media (hover: none) { 
+  .paper-title {
+    opacity: 1;
+    background: none;
+  }
+  .paper-image img {
+    filter: blur(0px);
+  }
+}
+
 </style>
 
 ```
@@ -132,13 +193,21 @@ fluidRow(
           ),
     column(8,
       HTML("</p>", yaml_info$description, "</p>"),
-      br(),
-      HTML("</p>", 'Presentation avaliable online for SCCT members', "</p>"),
       br()
           )
 )
 br()
 HTML('<h4>', 'Oral Presentation', '</h4>' , '<hr>')
+HTML('
+              <article class="paper-listing">
+                <a class="paper-title" href="pres.pptx">View Presentation</a>
+                  <div class="paper-image">
+                    <a href="pres.pptx" download>
+                      <img src="pres.png" alt="pres">
+                    </a>
+                  </div>
+              </article> <br>
+              ')
 HTML('
  <ol>
     <li><b>A Bhattaru</b>, V Gooty, J Dillenbeck, T Hussain. Practical Challenges of Machine Learning on the diagnosis of Cardiac Allograft Vasculopathy using Computed Tomography in pediatrics. </li>

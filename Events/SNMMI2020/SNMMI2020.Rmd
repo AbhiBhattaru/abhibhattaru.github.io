@@ -110,6 +110,67 @@ border: 1px solid gray;
 title{
 display: none;
 }
+
+.paper-listing {
+  position: relative;
+  overflow: hidden;
+}
+
+.paper-listing:hover .paper-title {
+  opacity: 1;
+}
+
+.paper-listing:hover .paper-image img {
+  filter: blur(2px);
+}
+
+.paper-image img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.paper-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(179, 0, 71);
+   
+  /* typographic styles */
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+   
+  /* position the text centrally*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* hide the title by default */
+  opacity: 0;
+  transition: opacity .5s;
+  
+  z-index: 1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media (hover: none) { 
+  .paper-title {
+    opacity: 1;
+    background: none;
+  }
+  .paper-image img {
+    filter: blur(0px);
+  }
+}
+
 </style>
 
 ```
@@ -137,7 +198,120 @@ fluidRow(
 )
 br()
 HTML('<h4>', 'Posters', '</h4>' , '<hr>')
-HTML("<p>Coming soon</p>")
+
+fluidRow()
+column(6,
+         HTML('
+              <article class="paper-listing">
+                <a class="paper-title" href="posters/FDGinIBD.png">View Poster</a>
+                <div class="paper-image">
+                  <a href="posters/FDGinIBD.png" download>
+                    <img src="posters/FDGinIBD.png" alt="Poster">
+                  </a>
+                </div>
+              </article>
+              '))
+column(6,
+         HTML('
+              <article class="paper-listing">
+                <a class="paper-title" href="posters/petmrinvd.png">View Poster</a>
+                <div class="paper-image">
+                  <a href="posters/petmrinvd.png" download>
+                    <img src="posters/petmrinvd.png" alt="Poster">
+                  </a>
+                </div>
+              </article>
+              '))
+
+column(6,
+         HTML('
+              <article class="paper-listing">
+                <a class="paper-title" href="posters/petinarr.jpg">View Poster</a>
+                <div class="paper-image">
+                  <a href="posters/petinarr.jpg" download>
+                    <img src="posters/petinarr.jpg" alt="Poster">
+                  </a>
+                </div>
+              </article>
+              '))
+
+column(6,
+         HTML('
+              <article class="paper-listing">
+                <a class="paper-title" href="posters/petinpaathero.png">View Poster</a>
+                <div class="paper-image">
+                  <a href="posters/petinpaathero.png" download>
+                    <img src="posters/petinpaathero.png" alt="Poster">
+                  </a>
+                </div>
+              </article>
+              '))
+
+column(6,
+         HTML('
+              <article class="paper-listing">
+                <a class="paper-title" href="posters/petinmsk.png">View Poster</a>
+                <div class="paper-image">
+                  <a href="posters/petinmsk.png" download>
+                    <img src="posters/petinmsk.png" alt="Poster">
+                  </a>
+                </div>
+              </article>
+              '))
+
+column(6,
+         HTML('
+              <article class="paper-listing">
+                <a class="paper-title" href="posters/paatheroscientific.jpg">View Poster</a>
+                <div class="paper-image">
+                  <a href="posters/paatheroscientific.jpg" download>
+                    <img src="posters/paatheroscientific.jpg" alt="Poster">
+                  </a>
+                </div>
+              </article>
+              '))
+
+column(6,
+         HTML('
+              <article class="paper-listing">
+                <a class="paper-title" href="posters/petinaorticsteno.jpg">View Poster</a>
+                <div class="paper-image">
+                  <a href="posters/petinaorticsteno.jpg" download>
+                    <img src="posters/petinaorticsteno.jpg" alt="Poster">
+                  </a>
+                </div>
+              </article>
+              '))
+
+
+column(6,
+         HTML('
+              <article class="paper-listing">
+                <a class="paper-title" href="posters/tbosteo.jpg">View Poster</a>
+                <div class="paper-image">
+                  <a href="posters/tbosteo.jpg" download>
+                    <img src="posters/tbosteo.jpg" alt="Poster">
+                  </a>
+                </div>
+              </article>
+              '))
+
+column(6,
+         HTML('
+              <article class="paper-listing">
+                <a class="paper-title" href="posters/subclinicalathero.png">View Poster</a>
+                <div class="paper-image">
+                  <a href="posters/subclinicalathero.png" download>
+                    <img src="posters/subclinicalathero.png" alt="Poster">
+                  </a>
+                </div>
+              </article>
+              '))
+
+  
+fluidRow()
+
+
 br()
 HTML('<h4>', 'Published Abstracts', '</h4>' , '<hr>')
       HTML('
