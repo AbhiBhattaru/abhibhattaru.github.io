@@ -58,7 +58,7 @@ HTML('
   <ol>
     <li> K Gonuguntla, S Patil, C Rojulpote , RG Cowden, M Nasir, P Karambelkar, T Buch, A Aujla, <b>A Bhattaru</b>, ZE Borja, P Schulman. A Population Based Analysis of Trends, Risk Factors And Outcomes Associated With Gastrointestinal Bleeding In Patients With Left Ventricular Assist Devices. <em>American Journal of Cardiovascular Disease.</em></li>
     <li>S Patil, C Rojulpote, K Gonuguntla, P Karambelkar, <b>A Bhattaru</b>, WY Raynor, AJ Borja, K Vuthaluru, V Zhang, TJ Werner, O Gerke, PF Høilund-Carlsen, A Alavi. Association of Triglyceride to High Density Lipoprotein Ratio with Global Cardiac Microcalcification in Healthy Non-diabetic Individuals as Assessed by NaF-PET/CT to Evaluate Subclinical Coronary Atherosclerosis. <em>American Journal of Cardiovascular Disease.</em></li>
-    <li>V Zhang, B Koa, AJ Borja, S Padmanhabhan, <b>A Bhattaru</b>, WY Raynor, C Rojulpote, SM Seraj, TJ Werner, C Rajapakse, A Alavi, ME Revheim. Diagnosis and Monitoring of Osteoperosis with Total-Body 18F-Sodium Fluoride Positron Emission Tomography/Computed Tomography. <em>PET Clinics.</em></li>
+    <li>V Zhang, B Koa, AJ Borja, S Padmanhabhan, <b>A Bhattaru</b>, WY Raynor, C Rojulpote, SM Seraj, TJ Werner, C Rajapakse, A Alavi, ME Revheim. Diagnosis and Monitoring of Osteoporosis with Total-Body 18F-Sodium Fluoride Positron Emission Tomography/Computed Tomography. <em>PET Clinics.</em></li>
     <li><b>A Bhattaru</b>, N Deshmukh, S Makkapati, N Nakamitsu. Detecting Organ Failure in Motor Vehicle Trauma Patients: A Machine Learning Approach. <em>2019 IEEE MIT Undergraduate Research Technology Conference (URTC)</em>
 </li>
   </ol>
