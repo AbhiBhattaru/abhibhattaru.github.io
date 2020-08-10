@@ -165,6 +165,18 @@ fluidRow()
   column(3,
          HTML('
               <article class="paper-listing">
+                <a class="paper-title" href="papers/TBOsteo/TBOsteo.pdf">Total Body Osteoporosis</a>
+                <div class="paper-image">
+                  <a href="papers/TBOsteo/TBOsteo.pdf" download>
+                    <img src="papers/TBOsteo/TBOsteo.jpg" alt="TBOsteo">
+                  </a>
+                </div>
+              </article>
+              ')
+         )
+  column(3,
+         HTML('
+              <article class="paper-listing">
                 <a class="paper-title" href="papers/COVIDHeart/COVIDHeart.pdf">COVID-19 in Heart</a>
                 <div class="paper-image">
                   <a href="papers/COVIDHeart/COVIDHeart.pdf" download>

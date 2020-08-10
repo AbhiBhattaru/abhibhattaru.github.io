@@ -1,0 +1,21 @@
+---
+title: Diagnosis and Monitoring of Osteoporosis with Total-Body 18F-Sodium Fluoride-PET/CT
+author:
+- "Vincent Zhang, Benjamin Koa, Austin J Borja, Sayuri Padmanhabhan"
+- "**Abhijit Bhattaru**, William Y Raynor, Chaitanya Rojulpote, Siavash M Seraj"
+- "Thomas J Werner, Chamith Rajapakse, Abass Alavi, Mona-Elisabeth Revheim"
+output: pdf_document
+date: "PET Clinics | August 4th, 2020"
+urlcolor: blue
+---
+***
+\noindent
+In recent years, 18F-Sodium Fluoride (NaF)-PET/CT has seen its role in the detection and management of osteoporosis increase. This article reviews the extent of this application in the literature, its efficacy compared with other comparable imaging tools, and how total-body PET/CT combined with global disease assessment can revolutionize measurement of total osteoporotic disease activity. NaF-PET/CT eventually can be the modality of choice for metabolic bone disorders, especially with these advances in technology and computation.
+
+***
+
+\begin{center}
+
+DOI:\href {https://doi.org/10.1016/j.cpet.2020.06.011}{10.1016/j.cpet.2020.06.011} | Pubmed: \href {https://pubmed.ncbi.nlm.nih.gov/32768370/}{32768370}
+
+\end{center}
