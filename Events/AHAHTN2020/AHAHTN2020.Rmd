@@ -136,7 +136,7 @@ fluidRow(
           )
 )
 br()
-HTML('<h4>', 'Oral Presentation', '</h4>' , '<hr>', '<p>Nominated for Top Trainee Advocacy Award</p>')
+HTML('<h4>', 'Oral Presentation', '</h4>' , '<hr>', '<p>Top Trainee Advocacy Award Recipient</p>')
 HTML('<p>Presentation will be uploaded after the meeting</p>')
 br()
 HTML('<ol>
