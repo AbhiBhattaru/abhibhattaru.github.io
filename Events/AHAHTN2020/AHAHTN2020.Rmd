@@ -110,6 +110,67 @@ border: 1px solid gray;
 title{
 display: none;
 }
+
+.paper-listing {
+  position: relative;
+  overflow: hidden;
+}
+
+.paper-listing:hover .paper-title {
+  opacity: 1;
+}
+
+.paper-listing:hover .paper-image img {
+  filter: blur(2px);
+}
+
+.paper-image img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.paper-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(179, 0, 71);
+   
+  /* typographic styles */
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+   
+  /* position the text centrally*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* hide the title by default */
+  opacity: 0;
+  transition: opacity .5s;
+  
+  z-index: 1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media (hover: none) { 
+  .paper-title {
+    opacity: 1;
+    background: none;
+  }
+  .paper-image img {
+    filter: blur(0px);
+  }
+}
+
 </style>
 
 ```
@@ -137,16 +198,41 @@ fluidRow(
 )
 br()
 HTML('<h4>', 'Oral Presentation', '</h4>' , '<hr>', '<p>Top Trainee Advocacy Award Recipient</p>')
-HTML('<p>Presentation will be uploaded after the meeting</p>')
+fluidRow()
+column(12,
+         HTML('
+              <article class="paper-listing">
+                <a class="paper-title" href="TAC.pptx">View Poster</a>
+                <div class="paper-image">
+                  <a href="TAC.pptx" download>
+                    <img src="TAC.png" alt="Poster">
+                  </a>
+                </div>
+              </article>
+              '))
+fluidRow()
 br()
 HTML('<ol>
-        <li><b>A Bhattaru</b>, C Rojulpote, R Ghorpade, PE Bravo, S Patil, K Gonuguntla, P Karambelkar, K Vuthaluru, V Zhang, TJ Werner, A Alavi. Correlation Between Blood Pressure And Inflammation In The Thoracic Aorta Of HIV Patients With And Without Cocaine Use As Assessed By FDG-PET/CT. <em>Hypertension</em>. Presented at: American Heart Association Hypertension 2020.</li>
+        <li><b>A Bhattaru</b>, C Rojulpote, R Ghorpade, PE Bravo, S Patil, K Gonuguntla, P Karambelkar, K Vuthaluru, V Zhang, TJ Werner, A Alavi. Correlation Between Blood Pressure And Inflammation In The Thoracic Aorta Of HIV Patients With And Without Cocaine Use As Assessed By FDG-PET/CT. <a href="https://www.ahajournals.org/doi/10.1161/hyp.76.suppl_1.MP24"> <em>Hypertension</em>. September 9th, 2020.</a></li>
      </ol>')
 br()
 HTML('<h4>', 'Poster Presentation', '</h4>' , '<hr>')
+fluidRow()
+column(12,
+         HTML('
+              <article class="paper-listing">
+                <a class="paper-title" href="HTN_Poster.pptx">View Poster</a>
+                <div class="paper-image">
+                  <a href="HTN_Poster.pptx" download>
+                    <img src="HTN_Poster.png" alt="Poster">
+                  </a>
+                </div>
+              </article>
+              '))
+fluidRow()
 HTML('
  <ol>
-     <li><b>A Bhattaru</b>, R Ghorpade, C Rojulpote, PE Bravo, S Patil, K Gonuguntla, P Karambelkar, K Vuthaluru, V Zhang, TJ Werner, A Alavi. Correlation Between Blood Pressure And Left Ventricular Metabolism In HIV Individuals With And Without Cocaine Use As Assessed By FDG-PET/CT. <em>Hypertension</em>. Presented at: American Heart Association Hypertension 2020.</li>
+     <li><b>A Bhattaru</b>, R Ghorpade, C Rojulpote, PE Bravo, S Patil, K Gonuguntla, P Karambelkar, K Vuthaluru, V Zhang, TJ Werner, A Alavi. Correlation Between Blood Pressure And Left Ventricular Metabolism In HIV Individuals With And Without Cocaine Use As Assessed By FDG-PET/CT. <a href = "https://www.ahajournals.org/doi/10.1161/hyp.76.suppl_1.P043"><em>Hypertension</em>. September 9th, 2020.</a></li>
  </ol>
 ')
 

@@ -1,0 +1,34 @@
+---
+title: "Association of triglyceride to high density lipoprotein ratio with global cardiac microcalcification to evaluate subclinical coronary atherosclerosis in non-diabetic individuals"
+author:
+  - "Shivaraj Patil, Chaitanya Rojulpote, Karthik Gonuguntla, Pranav Karambelkar,"
+  - "**Abhijit Bhattaru**, William Y Raynor, Austin J Borja, Kiranmayi Vuthaluru,"
+  - "Vincent Zhang, Thomas Werner, Oke Gerke, Poul F Hoilund-Carlsen, Abass Alavi"
+output: pdf_document
+date: "American Journal of Cardiovascular Disease | August 15th, 2020."
+urlcolor: blue
+---
+***
+
+
+\noindent
+**Objective:** Triglycerides (TG) to high density lipoprotein (HDL) ratio has been proposed as a marker of insulin resistance and atherosclerosis. We hypothesize that TG/HDL ratio correlates positively with global cardiac microcalcification as assessed by NaF-PET/CT as a surrogate marker for coronary atherosclerosis in healthy non-diabetic individuals. 
+
+\noindent
+**Methods:** We identified 68 healthy, non-diabetic individuals (age 41.7 ± 13.5 years; 35/33 female/male) from the CAMONA trial. All underwent PET/CT imaging 90 minutes after NaF injection (2.2 Mbq/Kg). Global cardiac average SUVmean (aSUVmean) was calculated by a trained physician for each individual. Fasting plasma lipid profile (total cholesterol (TC), low-density lipoprotein (LDL), HDL, and TG) and fasting plasma glucose were recorded. TG/HDL ratio was calculated for every individual. Univariate and multivariate linear regression models were used to assess the association between TG/HDL ratio and global cardiac aSUVmean. 
+
+\noindent
+**Results:**  On univariate analysis, there was a positive linear association of TG/HDL ratio and global cardiac aSUVmean (r=0.244, B=0.047, P=0.045). On multivariate analysis adjusted for age, gender, systolic blood pressure, diastolic blood pressure, smoking status, total cholesterol, low-density lipoprotein, and fasting plasma glucose, TG/HDL ratio was found to be independently associated with global cardiac aSUVmean (B=0.060, 95% CI: 0.007-0.114, P=0.027). 
+
+\noindent
+**Conclusions:** There was a positive correlation between TG/HDL ratio with global cardiac microcalcification assessed by NaF-PET/CT imaging.
+
+***
+
+\begin{center}
+
+
+Full Text:\href {http://www.ajcd.us/files/ajcd0114773.pdf}{AJCD 0114773} | Pubmed: \href {}{Coming Soon}
+
+
+\end{center}

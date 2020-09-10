@@ -105,8 +105,28 @@ library(shiny)
 
 #row1
 fluidRow()
-
-
+  column(3,
+         HTML('
+              <article class="paper-listing">
+                <a class="paper-title" href="papers/TGLHDL/TGLHDL.pdf">NaF vs TGL/HDL</a>
+                <div class="paper-image">
+                  <a href="papers/TGLHDL/TGLHDL.pdf" download>
+                    <img src="papers/TGLHDL/TGLHDL.png" alt="TGLHDL">
+                  </a>
+                </div>
+              </article>
+              '))
+  column(3,
+         HTML('
+              <article class="paper-listing">
+                <a class="paper-title" href="papers/GIBleed/GIBleed.pdf">GI Bleed in LVAD</a>
+                <div class="paper-image">
+                  <a href="papers/GIBleed/GIBleed.pdf" download>
+                    <img src="papers/GIBleed/GIBleed.png" alt="GIBleed">
+                  </a>
+                </div>
+              </article>
+              '))
   column(3,
          HTML('
               <article class="paper-listing">

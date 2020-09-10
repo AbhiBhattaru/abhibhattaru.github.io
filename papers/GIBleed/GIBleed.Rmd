@@ -1,0 +1,37 @@
+---
+title: "A population based analysis of trends, risk factors and outcomes associated with gastrointestinal bleeding in patients with left ventricular assist devices"
+author:
+  - "Karthik Gonuguntla, Shivaraj Patil, Chaitanya Rojulpote, Richard G Cowden,"
+  - "Myra Nasir, Pranav Karambelkar, Tapan Buch, Amreet Aujla"
+  - "**Abhijit Bhattaru**, Zoe E Borja, Peter Schulman"
+output: pdf_document
+date: "American Journal of Cardiovascular Disease | August 15th, 2020."
+urlcolor: blue
+---
+***
+
+
+\noindent
+**Introduction:**Prior to the utilization of continuous flow (CF) devices in 2010, Gastrointestinal (GI) bleeding was a common adverse event related to left ventricular assist device (LVADs) that was found to be even more frequent when CF devices were first introduced. 
+
+\noindent
+**Objective:** Given the drastic increase in the use of new CF-LVADs, we sought to determine if CF-LVADs are associated with an increased number of GI bleeds and higher mortality.
+
+\noindent
+**Methods:** We analysed the data from a national inpatient sample database using the ICD-9 procedure code for LVAD use in end-stage heart failure among patients > 18 years. The total sample consisted of 2,359 patients ($M_{age}=55$ ± 13.7 years). A majority of the sample was male (77%) and Caucasian (59%).
+
+\noindent
+**Results:** The Incidence of GI bleeding from 2010 to 2014 was 7.46% with no significant change in yearly incidence over five-year period (P=.793). After controlling for age, sex, and length of stay, multivariate logistic regression revealed that significant predictors of GI bleed were acute kidney injury (AOR=1.87, 95% CI=1.26, 2.80), peripheral vascular disease (AOR=1.77, 95% CI=1.02, 2.94), body mass index $\geq$ 25 (AOR=.46, 95% CI=.22, .87), hemiplegia or paraplegia (AOR=3.01, 95% CI=1.17, 7.05), moderate or severe liver disease (AOR=2.40, 95% CI=.97, 5.34), peptic ulcer disease (AOR=18.13, 95% CI=7.86, 42.38), surgical aortic valve replacement (AOR=2.46, 95% CI=1.12, 5.15), and venous thromboembolism (AOR=2.58, 95% CI=1.57, 4.15)
+
+\noindent
+**Conclusions:**  The results of the study show that GI bleeding is highly prevalent in patients with LVADs and there was no improvement in rates of GI bleed over five years since the CF-LVADs were initially introduced and is associated with an increased likelihood of mortality. 
+
+***
+
+\begin{center}
+
+
+Full Text:\href {http://www.ajcd.us/files/ajcd0115999.pdf}{AJCD 0115999} | Pubmed: \href {}{Coming soon}
+
+
+\end{center}
