@@ -1,22 +1,102 @@
 ---
 output: html_document
-runtime: shiny
 pagetitle: Applications
 ---
-
-<br>
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+```
 ```{=html}
 <style>
-  h2{
+p{
+  font-size: 15px;
+  margin-bottom: .05em;
+}
+h2{
 font-weight: 500;
-  }
+}
+h3{
+font-weight: 500;
+}
+hr{
+border: 1px solid gray;
+}
+title{
+display: none;
+}
 </style>
-<h2>Videogame sales</h2>
-  
-```  
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
 ```
-```{r thingie, message=FALSE, fig.width = 9, fig.height=8}
-knitr::include_app('https://abhibhattaru.shinyapps.io/VideoGameAnalysis/', height = '1000px')
+
+<h2>Applications and Projects</h2>
+<hr>
+```{r abhibhattaru.github.io}
+library(shiny)
+h3('Project: abhibhattaru.github.io')
+fluidRow(
+  column(2,
+         img(src='images/favicon.png'),
+         br(), style="word-wrap: break-word;"
+  ),
+  column(10,
+         p("This is my website! It is drafted in R Markdown (using Shiny apps UI) and published for free using Github pages. I created this project to highlight my projects, both research and freelance coding. "),
+         br(),
+         p("Language: R Markdown, HTML, CSS"), 
+         p("View project at: ", a(href = "https://abhibhattaru.github.io/", 'https://abhibhattaru.github.io/')),
+         p("Github:", a(href = "https://github.com/AbhiBhattaru/abhibhattaru.github.io", "https://github.com/AbhiBhattaru/abhibhattaru.github.io")),
+         style="word-wrap: break-word;" )
+)
 ```
+<hr>
+```{r video_game_sales}
+library(shiny)
+h3('Project: Video Game Sales')
+fluidRow(
+  column(2,
+         img(src='images/shiny.png'),
+         br(), style="word-wrap: break-word;"
+  ),
+  column(10,
+         p("This is a Shiny app developed to analyze video game sales based on a Kaggle dataset."),
+         br(),
+         p("Language: R"), 
+         p("View project at: ", a(href = "https://abhibhattaru.shinyapps.io/VideoGameAnalysis/", 'https://abhibhattaru.shinyapps.io/VideoGameAnalysis/')),
+         p("Github:", a(href = "https://github.com/AbhiBhattaru/VideoGameSales", "https://github.com/AbhiBhattaru/VideoGameSales")),
+         style="word-wrap: break-word;" )
+)
+```
+<hr>
+```{r ftc_rr2}
+library(shiny)
+h3('Project: FTC Rover Ruckus')
+fluidRow(
+  column(2,
+         img(src='images/rr2.png'),
+         br(), style="word-wrap: break-word;"
+  ),
+  column(10,
+         p("This is an android app developed as part of the FTC 2019 Rover Ruckus Challenge. I was the lead developer for this application as part of my team: Iron Reign Robotics. This robot advanced to the World Championship"),
+         br(),
+         p("Language: Java"), 
+         p("View project at: ", a(href = "https://ironreignrobotics.org/", 'https://ironreignrobotics.org/')),
+         p("Github:", a(href = "https://github.com/IronReign/ftc_app_rr2", "https://github.com/IronReign/ftc_app_rr2")),
+         style="word-wrap: break-word;" )
+)
+```
+<hr>
+```{r ftc_rr}
+library(shiny)
+h3('Project: FTC Relic Recovery')
+fluidRow(
+  column(2,
+         img(src='images/rr.png'),
+         br(), style="word-wrap: break-word;"
+  ),
+  column(10,
+         p("This is an android app developed as part of the FTC 2018 Relic Recovery Challenge. I was a co-developer for this application as part of my team: Iron Reign Robotics. This robot advanced to the World Championship"),
+         br(),
+         p("Language: Java"), 
+         p("View project at: ", a(href = "https://ironreignrobotics.org/", 'https://ironreignrobotics.org/')),
+         p("Github:", a(href = "https://github.com/IronReign/ftc_app_rr", "https://github.com/IronReign/ftc_app_rr")),
+         style="word-wrap: break-word;" )
+)
+```
+
