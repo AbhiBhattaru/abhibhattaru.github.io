@@ -31,7 +31,7 @@ urlcolor: blue
 \begin{center}
 
 
-Full Text:\href {http://www.ajcd.us/files/ajcd0115999.pdf}{AJCD 0115999} | Pubmed: \href {}{Coming soon}
+Full Text:\href {http://www.ajcd.us/files/ajcd0115999.pdf}{AJCD 0115999} | Pubmed: \href {https://pubmed.ncbi.nlm.nih.gov/32923107/}{32923107}
 
 
 \end{center}

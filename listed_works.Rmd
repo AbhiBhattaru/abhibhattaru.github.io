@@ -60,6 +60,9 @@ HTML('
 em('In Press'),
 HTML('
   <ol>
+    <li>AJ Borja, <b>A Bhattaru</b>, C Rojulpote, EC Hancin, DK Detchou, S Patil, K Gonuguntla, P Karambelkar, S Chinta, K Vuthaluru, TJ Werner, O Gerke, PF Høilund-Carlsen, Abass Alavi. Association between Atherosclerotic Cardiovascular Disease Risk Score Estimated by Pooled Cohort Equation and Coronary Plaque Burden as Assessed by NaF-PET/CT. <em>American Journal of Nuclear Medicine and Molecular Imaging</em></li>
+    <li>K Gonuguntla, C Rojulpote, S Patil, <b>A Bhattaru</b>, P Karambelkar, K Vuthaluru, WY Raynor, AJ Borja, V Zhang, TJ Werner, O Gerke, PF Høilund-Carlsen, A Alavi. Utilization of NaF-PET/CT in Assessing Global Cardiovascular Calcification Using CHADS2 and CHADS2-VASc Scoring Systems in High Risk Individuals for Cardiovascular Disease. <em>American Journal of Nuclear Medicine and Molecular Imaging</em></li>
+  
     <li><b>A Bhattaru</b>, N Deshmukh, S Makkapati, N Nakamitsu. Detecting Organ Failure in Motor Vehicle Trauma Patients: A Machine Learning Approach. <em>2019 IEEE MIT Undergraduate Research Technology Conference (URTC)</em>
 </li>
   </ol>
