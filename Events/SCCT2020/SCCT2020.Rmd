@@ -211,7 +211,7 @@ HTML('
               ')
 HTML('
  <ol>
-    <li><b>A Bhattaru</b>, A Tandon, R Davies, D Sutcliffe, R Butts, J Dillenbeck, G Greil, T Hussain. Role of Computed Tomography in Pediatric Ventricular Assist Device Fitting. <em>Journal of Cardiovascular Computed Tomography.</em> July 17, 2020. </li>
+    <li><b>A Bhattaru</b>, A Tandon, R Davies, D Sutcliffe, R Butts, J Dillenbeck, G Greil, T Hussain. Role of Computed Tomography in Pediatric Ventricular Assist Device Fitting. <a href="https://doi.org/10.1016/j.jcct.2020.06.047"><em>Journal of Cardiovascular Computed Tomography.</em> July 1, 2020. </a></li>
  </ol>
 ')
 
