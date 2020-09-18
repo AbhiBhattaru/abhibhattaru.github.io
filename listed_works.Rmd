@@ -4,7 +4,7 @@ pagetitle: Listed Works
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE, tidy = TRUE)
 ```
 
 ```{=html}
@@ -31,19 +31,9 @@ display: none;
 </style>
 ```
 
-
-<h2>Listed Works</h2>
-```{r papers, tidy=TRUE, echo=FALSE}
+```{r published_papers}
 library(shiny)
-
-tabsetPanel(
-
-tabPanel( "Manuscripts",
-br(),
-h4('Manuscripts'),
-hr(),
-em('Published'),
-HTML('
+published_papers<-HTML('
   <ol>
     <li>S Patil, C Rojulpote, K Gonuguntla, P Karambelkar, <b>A Bhattaru</b>, WY Raynor, AJ Borja, K Vuthaluru, V Zhang, TJ Werner, O Gerke, PF Høilund-Carlsen, A Alavi. Association of Triglyceride to High Density Lipoprotein Ratio with Global Cardiac Microcalcification in Healthy Non-diabetic Individuals as Assessed by NaF-PET/CT to Evaluate Subclinical Coronary Atherosclerosis. <em>American Journal of Cardiovascular Disease.</em> August 15, 2020.</li>
     <li> K Gonuguntla, S Patil, C Rojulpote , RG Cowden, M Nasir, P Karambelkar, T Buch, A Aujla, <b>A Bhattaru</b>, ZE Borja, P Schulman. A Population Based Analysis of Trends, Risk Factors And Outcomes Associated With Gastrointestinal Bleeding In Patients With Left Ventricular Assist Devices. <em>American Journal of Cardiovascular Disease.</em> August 15, 2020.</li>
@@ -56,9 +46,12 @@ HTML('
     <li>K Gonuguntla, S Patil, NV Gadela, RC Cowden, C Rojulpote, S Durugu, P Karambelkar, <b>A Bhattaru</b>, AJ Borja, V Zhang. Trends, Outcomes, and Predictors of Sepsis and Severe Sepsis in Patients with Left Ventricular Assist Devices. <em>Cureus.</em> April 3, 2020.</li>
     <li>C Rojulpote, A Matthew, MK Yarlagadda, <b>A Bhattaru</b>, K Vuthaluru. Conned by Conn’s: The Manifestation of Conn’s Syndrome Post-renal Transplant in a Patient with Polycystic Kidney Disease. <em>Cureus</em>. April 2, 2020. </li>
   </ol>
-     '),
-em('In Press'),
-HTML('
+     ')
+
+
+```
+```{r inpress_papers}
+inpress_papers<-HTML('
   <ol>
     <li>AJ Borja, <b>A Bhattaru</b>, C Rojulpote, EC Hancin, DK Detchou, S Patil, K Gonuguntla, P Karambelkar, S Chinta, K Vuthaluru, TJ Werner, O Gerke, PF Høilund-Carlsen, Abass Alavi. Association between Atherosclerotic Cardiovascular Disease Risk Score Estimated by Pooled Cohort Equation and Coronary Plaque Burden as Assessed by NaF-PET/CT. <em>American Journal of Nuclear Medicine and Molecular Imaging</em></li>
     <li>K Gonuguntla, C Rojulpote, S Patil, <b>A Bhattaru</b>, P Karambelkar, K Vuthaluru, WY Raynor, AJ Borja, V Zhang, TJ Werner, O Gerke, PF Høilund-Carlsen, A Alavi. Utilization of NaF-PET/CT in Assessing Global Cardiovascular Calcification Using CHADS2 and CHADS2-VASc Scoring Systems in High Risk Individuals for Cardiovascular Disease. <em>American Journal of Nuclear Medicine and Molecular Imaging</em></li>
@@ -66,30 +59,20 @@ HTML('
     <li><b>A Bhattaru</b>, N Deshmukh, S Makkapati, N Nakamitsu. Detecting Organ Failure in Motor Vehicle Trauma Patients: A Machine Learning Approach. <em>2019 IEEE MIT Undergraduate Research Technology Conference (URTC)</em>
 </li>
   </ol>
-     '),
-br()
-
-),
-
-
-
-
-
-tabPanel("Abstracts",
-br(),
-h4('Abstracts'),
-hr(),
-em('Oral Presentations'),
-HTML('
+     ')
+```
+```{r oral_pres}
+oral_pres<-HTML('
  <ol>
     <li><b>A Bhattaru</b>, C Rojulpote, R Ghorpade, PE Bravo, S Patil, K Gonuguntla, P Karambelkar, K Vuthaluru, V Zhang, TJ Werner, A Alavi. Correlation Between Blood Pressure And Inflammation In The Thoracic Aorta Of HIV Patients With And Without Cocaine Use As Assessed By FDG-PET/CT. <em>Hypertension</em>. September 9th, 2020. Presented at: American Heart Association Hypertension 2020.</li>
     <li><b>A Bhattaru</b>, A Tandon, R Davies, D Sutcliffe, R Butts, J Dillenbeck, G Greil, T Hussain. Role of Computed Tomography in Pediatric Ventricular Assist Device Fitting. <em>Journal of Cardiovascular Computed Tomography.</em> July 1, 2020. Presented at: Society of Cardiovascular Computed Tomography 2020. </li>
     <li><b>A Bhattaru</b>, V Gooty, J Dillenbeck, T Hussain. Practical Challenges of Machine Learning on the diagnosis of Cardiac Allograft Vasculopathy using Computed Tomography in pediatrics. Presented at: SCCT Innovation 2020.</li>
     <li><b>A Bhattaru</b>, N Deshmukh, S Makkapati, N Nakamitsu. Detecting Organ Failure in Motor Vehicle Trauma Patients: A Machine Learning Approach. Presented at: MIT Undergraduate Research and Technology Conference 2019, AIMed 2018. </li>
  </ol>
-'),
-em('Poster Presentations'),
-HTML('
+')
+```
+```{r poster_pres}
+poster_pres <- HTML('
   <ol>
      <li><b>A Bhattaru</b>, R Ghorpade, C Rojulpote, PE Bravo, S Patil, K Gonuguntla, P Karambelkar, K Vuthaluru, V Zhang, TJ Werner, A Alavi. Correlation Between Blood Pressure And Left Ventricular Metabolism In HIV Individuals With And Without Cocaine Use As Assessed By FDG-PET/CT. <em>Hypertension</em>. September 9th, 2020. Presented at: American Heart Association Hypertension 2020.</li>
      <li>K Gonuguntla, C Rojulpote, S Patil, P Karambelkar, <b>A Bhattaru</b>, K Vuthaluru, TJ Werner, PF Hoilund-Carlsen, A Alavi. Atherosclerotic Cardiovascular Disease Risk Estimated by Pooled Cohort Equation Predicts Global Cardiac Microcalcification in Patients with Angina. <a href = "https://doi.org/10.1007/s12350-020-02296-w"> <em>Journal of Nuclear Cardiology</em>. September 4, 2020.</a> Presented at: American Society of Nuclear Cardiology 2020 meeting.</li>
@@ -119,9 +102,10 @@ HTML('
     <li>DA Castellanos, K Škardová, <b>A Bhattaru</b>, G Greil, A Tandon, J Dillenbeck, B Burkhardt, T Hussain, M Genet, R Chabiniok. Left ventricular torsion obtained using equilibrated warping in patients with repaired Tetralogy of Fallot. Presented at: Society for Cardiovascular Magnetic Resonance 2020.
 </li>
   </ol>
-'),
-em("Accepted"),
-HTML('
+')
+```
+```{r inpress_abstracts}
+inpress_abstracts <- HTML('
   <ol>
     <li><b>A Bhattaru</b>, WY Raynor, S Patil, C Rojulpote, PE Bravo, K Gonuguntla, P Karambelkar, K Vuthaluru, SM Seraj, V Zhang, T Werner, JF Baker, A Alavi. Association Of Serum Leptin And Abdominal Aortic Inflammation In Rheumatoid Arthritis. <em>Arteriosclerosis, Thrombosis and Vascular Biology</em>. Presented at: American Heart Association Sessions 2020.</li>
     <li>C Rojulpote, <b>A Bhattaru</b>, K Gonuguntla, S Patil, P Karambelkar, T Buch, K Vuthaluru, S Shrivastava, N Perosevic. Pacemaker In The Elderly: A Nationwide Cohort To Determine Complications Associated With Pacemakers. <em>CLCD</em>. Presented at: American Heart Association Sessions 2020.</li>
@@ -132,24 +116,36 @@ HTML('
     
   </ol>
 ')
-)
+```
 
-
+<h2>Listed Works</h2>
+```{r papers, tidy=TRUE, echo=FALSE}
+library(shiny)
+manuscripts<- tabPanel( "Manuscripts",
+br(),
+h4('Manuscripts'),
+hr(),
+em('Published'),
+published_papers,
+em('In Press'),
+inpress_papers,
+br()
 )
 ```
+```{r abstracts, tidy=TRUE, echo=FALSE}
+abstracts<- tabPanel("Abstracts",
+br(),
+h4('Abstracts'),
+hr(),
+em('Oral Presentations'),
+oral_pres,
+em('Poster Presentations'),
+poster_pres,
+em("Accepted"),
+inpress_abstracts
+)
+```
+```{r render_pages, tidy=TRUE, echo=FALSE}
+tabsetPanel(manuscripts, abstracts)
+```
 <br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
