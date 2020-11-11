@@ -54,11 +54,9 @@ fluidRow(
   column(3,
          img(src='images/penn.png'),
          em("Nuclear Cardiology"),
-         p("Lead: Paco Bravo"),
          p("Current"),
          br(),
          em("Radiology"),
-         p("Lead: Abass Alavi"),
          p("Current"),
          br()
   ),
