@@ -1,0 +1,27 @@
+---
+title: "Global brain glucose uptake on 18F-FDG-PET/CT is influenced by chronic cardiovascular risk"
+author:
+  - "Austin J Borja, Emily C Hancin, Vincent Zhang, "
+  - "Benjamin Koa, **Abhijit Bhattaru**, Chaitanya Rojulpote, "
+  - "Donald K Detchou, Mahmoud Aly, Fatemeh Kaghazchi, Oke Gerke, "
+  - "Shivaraj Patil, Karthik Gonuguntla, Thomas J Werner, "
+  - "Mona-Elisabeth Revheim, Poul F Høilund-Carlsen, Abass Alavi"
+output: pdf_document
+date: "Nuclear Medicine Communications | December 14th, 2021."
+urlcolor: blue
+---
+***
+
+
+\noindent
+The goal of this study was to assess global cerebral glucose uptake in subjects with known cardiovascular risk factors by employing a quantitative 18F-fluorodeoxyglucose-PET/computed tomography (FDG-PET/CT) technique. We hypothesized that at-risk subjects would demonstrate decreased global brain glucose uptake compared to healthy controls. We compared 35 healthy male controls and 14 male subjects at increased risk for cardiovascular disease (CVD) as assessed by the systematic coronary risk evaluation (SCORE) tool. All subjects were grouped into two age-matched cohorts: younger (<50 years) and older ( $\geq$ 50 years). The global standardized uptake value mean (Avg SUVmean) was measured by mapping regions of interest of the entire brain across the supratentorial structures and cerebellum. Wilcoxon’s rank-sum test was used to assess the differences in Avg SUVmean between controls and at-risk subjects. Younger subjects demonstrated higher brain Avg SUVmean than older subjects. In addition, in both age strata, the 10-year risk for fatal CVD according to the SCORE tool was significantly greater in the at-risk groups than in healthy controls (younger: P=0.0304; older: P=0.0436). In the younger cohort, at-risk subjects demonstrated significantly lower brain Avg SUVmean than healthy controls (P=0.0355). In the older cohort, at-risk subjects similarly had lower Avg SUVmean than controls (P=0.0343). Global brain glucose uptake appears to be influenced by chronic cardiovascular risk factors. Therefore, FDG-PET/CT may play a role in determining the importance of CVD on brain function and has potential for monitoring the efficacy of various therapeutic interventions.
+
+***
+
+\begin{center}
+
+
+DOI:\href {https://doi.org/10.1097/MNM.0000000000001349}{10.1097/MNM.0000000000001349} | Pubmed: \href {https://pubmed.ncbi.nlm.nih.gov/33323870/}{33323870}
+
+
+\end{center}

@@ -1,0 +1,26 @@
+---
+title: "Comparison of atherosclerotic burden in non-lower extremity arteries in patients with and without peripheral artery disease using 18 F-NaF-PET/CT imaging"
+author:
+  - "Shadi Asadollahi, Chaitanya Rojulpote, **Abhijit Bhattaru**,"
+  - "Shivaraj Patil, Karthik Gonuguntla, Pranav Karambelkar,"
+  - "Austin J Borja, Kiranmayi Vuthaluru, Siavash Mehdizadeh Seraj,"
+  - "Vincent Zhang, Thomas J Werner, Oke Gerke, Poul Flemming Høilund-Carlsen, Abass Alavi"
+output: pdf_document
+date: "American Journal of Nuclear Medicine and Molecular Imaging| December 15th, 2020."
+urlcolor: blue
+---
+***
+
+
+\noindent
+Atherosclerosis is the most common cause of peripheral artery disease (PAD). We compared the atherosclerotic burden in non-lower extremity arteries in patients with and without PAD using 18F-sodium fluoride (NaF)-PET/CT. We identified five individuals (61.8±6.6 years, one male, four females) with PAD and matched to five individuals without PAD based on age and gender from the unfavorable cardiovascular risk profile group of the CAMONA trial (60±7.2 years, one male, four females). Individuals underwent PET/CT imaging 90 minutes after the injection of NaF (2.2 Mbq/Kg). CT imaging was conducted to account for attenuation correction and anatomic referencing. The NaF uptake was measured by manually defining regions of interest on each axial slice on the following arteries: coronary artery (CA), carotid artery (CR), ascending aorta (AS), arch of aorta (AR), descending aorta (DA), and abdominal aorta (AA). Average SUVmean (aSUVmean) was calculated for each segment. Wilcoxon's signed rank test was used for statistical analysis. The total aSUVmean was higher in the PAD group compared to the non-PAD group (6.54±0.9 vs. 5.03±0.45, P=0.043). Comparison revealed higher NaF uptake in CR, AS, AR, and DA in the PAD group compared to the non-PAD group (0.93±0.25 vs. 0.54±0.14, P=0.01; 1.28±0.20 vs. 0.86±1.19, P<0.01; 1.18±0.17 vs. 0.90±0.19, P=0.03; 1.32±0.24 vs. 0.91±0.15, P=0.01). The NaF uptake in CA and AA was similar between the two groups (0.77±0.04 vs. 0.71±0.05, P=0.11; 1.07±0.28 vs. 1.12±0.30, P=0.82). We found individuals with PAD had higher atherosclerotic burden in the carotid arteries and thoracic aorta compared to non-PAD subjects.
+
+***
+
+\begin{center}
+
+
+Full Text:\href {http://www.ajnmmi.us/files/ajnmmi0115936.pdf}{AJNM 0115936} | Pubmed: \href {https://pubmed.ncbi.nlm.nih.gov/33329929/}{33329929}
+
+
+\end{center}
